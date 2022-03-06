@@ -4,7 +4,6 @@ Created on Wed Mar  2 17:33:21 2022
 
 @author: CHENLF
 """
-
 import sys
 print(sys.path)
 import os,time
@@ -17,23 +16,22 @@ ts.set_token('d48f1a29a44d2b3cfd8aba968d44da4fe9a2a0c30305bcf57dc91a21')  ## 设
 ## 初始化
 pro = ts.pro_api()
 #%%
+## 需要每年更新节假日日期数据
 jiejiari = pd.read_excel(r'E:\项目文件夹\陈良方\我的坚果云\中信银行\节假日.xlsx')
-dd = pd.to_datetime(jiejiari['节假日'],errors='coerce', format ='%Y-%m-%d')
-jjr = list(dd.apply(lambda x: x.strftime('%Y%m%d')))
-
+## 获取工作日时
+dd = pd.to_datetime(jiejiari['节假日'],errors='coerce', format ='%Y-%m-%d') ## 转化为时间格式
+jjr = list(dd.apply(lambda x: x.strftime('%Y%m%d'))) ##读取为list
+## 获取周日为工作日的日期
 dd = pd.to_datetime(jiejiari['调休'],errors='coerce', format ='%Y-%m-%d')
-
 dd = dd.dropna()
 gzr = list(dd.apply(lambda x: x.strftime('%Y%m%d')))
-
-
-start_date = '20211101'
-end_date = '20221231'
+## 获取工作日的日历序列
+start_date = '20211101'   ## 需要每年维护
+end_date = '20221231'     ## 需要每年维护
 workingday = pd.date_range(start = start_date, end = end_date ,tz='Asia/Shanghai', freq = "B")
 f = lambda x: x.strftime('%Y%m%d')
 workingdaylist = list(map(f, list(workingday)))
 
-
 for i in workingdaylist:
     if i in jjr:
         workingdaylist.remove(i)
@@ -43,24 +41,21 @@ for i in workingdaylist:
 for i in workingdaylist:
     if i in jjr:
         workingdaylist.remove(i)
-
 for i in workingdaylist:
     if i in jjr:
         workingdaylist.remove(i)
-
+## 获取最终的节假日序列
 workingdaylist.extend(gzr)
 workingdaylist.sort()
-
+## 转化为DataFrame
 workingday = pd.DataFrame(workingdaylist, columns = ['work'])
-
+## 获取交易日信息
 trade_days = pro.trade_cal(exchange_id='', start_date = '20211101', end_date = '20221231')
 tradingday = trade_days[trade_days.is_open == 1].cal_date.values
 tradingdaylist = list(tradingday)
 tradingday = pd.DataFrame(tradingdaylist, columns = ['trading'])
 
 #%%
-#from WindPy import *
-#w.start() 
 def get_pianli_jday(basic_day,timedaltas):
     ## basic_day 为基准日期；
     ## timedaltas 为时间偏离度，正数表表示向后偏离；
