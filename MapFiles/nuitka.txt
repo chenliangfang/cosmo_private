@@ -1,0 +1,3 @@
+nuitka --standalone --mingw64 --nofollow-imports --show-memory --show-progress --plugin-enable=tk-inter    --include-package=lxml   --output-dir=MapFiles  --windows-disable-console  --windows-icon-from-ico='E:\Demos\MapFiles\Mapfiles_1.2.5\rocket2.ico'   .\MapFiles-Excel.py
+nuitka --standalone --mingw64 --nofollow-imports --show-memory --show-progress --plugin-enable=tk-inter    --include-package=lxml   --output-dir=MapFiles    --windows-icon-from-ico='E:\Demos\MapFiles\Mapfiles_1.2.5\rocket2.ico'   .\MapFiles-Excel.py
+
