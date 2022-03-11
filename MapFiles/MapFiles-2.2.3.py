@@ -65,7 +65,10 @@ class MY_GUI():
     def set_init_window(self):
         width = 600
         height = 680
-        self.init_window_name.iconbitmap('.\\rocket3.ico')
+        try:
+            self.init_window_name.iconbitmap('.\\rocket3.ico')
+        except:
+            self.init_window_name.iconbitmap(r'E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\rocket3.ico')
         self.init_window_name.title("MapFiles")           #窗口名
         self.init_window_name.resizable(width=False, height=False)
         self.screenwidth = self.init_window_name.winfo_screenwidth()
