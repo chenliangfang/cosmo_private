@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 
 # -*- coding: utf-8 -*-
 """
@@ -7,18 +5,13 @@ Created on Sat Mar  6 19:59:27 2021
 
 @author: CHENLF
 """
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Mar  6 19:59:27 2021
-
-@author: CHENLF
-"""
+#%%
 from tkinter import *
 from tkinter.filedialog import  askdirectory, askopenfilenames, askopenfilename
 from tkinter.messagebox import showinfo
 import datetime, os
 import os, sys
-from docxtpl import DocxTemplate
+from docxtpl import DocxTemplate  ## 关键包
 import queue, time, datetime
 from docx import Document
 from xltpl.writerx import BookWriter
@@ -34,25 +27,28 @@ import win32com
 from win32com.client import Dispatch, constants
 import pandas as pd
 import threading
-
+facebg = 'DarkGray'  # Honeydew  \PaleGoldenrod \PowderBlue \Silver      #窗口背景色，其他背景色见：blog.csdn.net/chl0000/article/details/7657887
+menubg = 'DarkGray' ##CornflowerBlue\GhostWhite\
+#%%
 if not os.path.exists(r'C:\Files'):
     os.mkdir(r'C:\Files')
 
-facebg = 'DarkGray'  # Honeydew  \PaleGoldenrod \PowderBlue \Silver                     #窗口背景色，其他背景色见：blog.csdn.net/chl0000/article/details/7657887
-menubg = 'DarkGray' ##CornflowerBlue\GhostWhite\
-
 def strfolat(num):
+    '''
+    用于数字转化为字符串
+    '''
     try:
         return format(num, ',')
     except:
         return num
 
 def strtime(time):
+    ''' 用于时间转化为字符串格式 '''
     try:
         return time.strftime('%Y年%m月%d日')
     except:
         return time
-
+#%%
 LOG_LINE_NUM = 0
 global path_
 path_ = r'C:\Files'
@@ -60,7 +56,6 @@ path_ = r'C:\Files'
 class MY_GUI():
     def __init__(self,init_window_name):
         self.init_window_name = init_window_name
-
     #设置窗口
     def set_init_window(self):
         width = 600
@@ -69,16 +64,18 @@ class MY_GUI():
             self.init_window_name.iconbitmap('.\\rocket3.ico')
         except:
             self.init_window_name.iconbitmap(r'E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\rocket3.ico')
-        self.init_window_name.title("MapFiles")           #窗口名
+        self.init_window_name.title("MapFiles-Excle")           #窗口名
         self.init_window_name.resizable(width=False, height=False)
         self.screenwidth = self.init_window_name.winfo_screenwidth()
         self.screenheight = self.init_window_name.winfo_screenheight()
         self.alignstr = '%dx%d+%d+%d' % (width, height, (self.screenwidth-width)/2, (self.screenheight-height)/2)
         self.init_window_name.geometry(self.alignstr)
-
         self.init_window_name["bg"] = facebg           # Honeydew  \PaleGoldenrod \PowderBlue                      #窗口背景色，其他背景色见：blog.csdn.net/chl0000/article/details/7657887
         self.init_window_name.attributes("-alpha",1)                          #虚化，值越小虚化程度越高
-        # 变量
+        self.init_window_name.attributes("-topmost",1)
+        #self.init_window_name.overrideredirect(True)
+        self.init_window_name.attributes("-transparentcolor","blue")
+        # 设置变量
         self.file_temp = StringVar()
         self.data = StringVar()
         self.path_save = StringVar()
@@ -94,10 +91,8 @@ class MY_GUI():
         self.Path_Button = Button(self.init_window_name, text = "保存路径", bg = menubg, fg = 'Black', width=10, height=1, command = self.selectPath, bd = 3).place(x=485, y= 240)
         self.Temp_Button = Button(self.init_window_name, text = "模板选择", bg = menubg, fg = 'Black',width=10, height=1, command = self.selectFile, bd = 3).place(x=485, y= 90)
         self.Data_Button = Button(self.init_window_name, text = "数据源", bg = menubg, fg = 'Black',width=10, height=1, command = self.selectExcle, bd = 3).place(x=485, y= 190)
-
         self.Files_Button = Button(self.init_window_name, text = "生成文件", bg = menubg, fg = 'Black', width=20, height=2,command = self.mappfile, activebackground = 'orange', bd = 3).place(x=60, y= 340)
         self.Files_Button = Button(self.init_window_name, text = "生成PDF", bg = menubg, fg = 'Black', width=20, height=2,command = self.mapfile2pdf, activebackground = 'orange', bd = 3).place(x=380, y= 340)
-        
         #文本框
         self.TableName_Entry = Entry(self.init_window_name, width=10,  bd = 3)
         self.Data_Column_Entry = Entry(self.init_window_name, width=10,  bd = 3)
@@ -116,10 +111,10 @@ class MY_GUI():
         self.Save_path.insert(0,r'C:\Files')
         path_ = self.Save_path.get()
         self.log_data_Text = Text(self.init_window_name, width=75, height=9, bd = 3)
-        self.log_data_Text.place(x=30, y= 410, height=220)
-        
+        self.log_data_Text.place(x=30, y= 410, height=220)   
     # 功能函数
     def selectPath(self):
+        '''路径选则函数'''
         global path_
         path_ = askdirectory(title='Set Save Path')
         self.path_save.set(path_)

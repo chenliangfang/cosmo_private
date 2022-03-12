@@ -434,7 +434,7 @@ class MY_GUI():
                                     except Exception as e:
                                         self.write_log_to_Text("INFO: %s" %e)
                                         showinfo(title = "提示",
-                                            message = "Name框请确定变量名是否正确")
+                                            message = "命名字段[%s]不在Table中" %rename)
                                 else:
                                     #self.write_log_to_Text("INFO: %s" %e)
                                     showinfo(title = "提示",
