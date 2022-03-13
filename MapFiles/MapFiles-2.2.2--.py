@@ -139,7 +139,7 @@ class MY_GUI():
         except:
             sheet = sheet_index
         data = pd.read_excel(excel_,  sheet_name = sheet)
-        print(data.dtypes)
+        #print(data.dtypes)
         float64 = data.dtypes[data.dtypes == 'float64']
         float64 = float64.index.values
         for index in float64:
@@ -151,28 +151,36 @@ class MY_GUI():
         data['today'] = datetime.datetime.strftime(datetime.datetime.today(),'%Y年%m月%d日')
         data['month'] = datetime.datetime.strftime(datetime.datetime.today(),'%Y年%m月')
         data['year'] = datetime.datetime.strftime(datetime.datetime.today(),'%Y年')
-        return data
-        
+        return data 
     ## 生成文件函数
     def produce_word(self, context, path_of_MB,path_of_HT, renames):
         files = path_of_MB
         for file in files:
+            filename_ini = os.path.splitext(os.path.basename(file))[0].replace('-模板','').replace('模板','')
+            filename_type = os.path.splitext(os.path.basename(file))[1]
+            if "@" in filename_ini:
+                filename_ini = filename_ini.split("@")[1]
+            save_file_name = renames + filename_ini + filename_type
             if file.endswith('docx'):
                 try:
                     tpl = DocxTemplate(file)
                     try:
                         tpl.render(context)
-                        set_of_variables = tpl.get_undeclared_template_variables()
-                        print(set_of_variables)
+                        ## 获取没有
                     except Exception as e:
-                        self.write_log_to_Text("INFO: %s faild" % (renames + os.path.splitext(os.path.basename(file))[0].replace('-模板','').replace('模板','')))
-                        self.write_log_to_Text("错误原因：%s" %e)
+                        self.write_log_to_Text("INFO: %s faild" % (save_file_name))
+                        self.write_log_to_Text('错误原因：%s' % e)
                         showinfo(title = "提示",
                             message = "模板可能存在的问题：{0}".format(str(e)))
                         raise e
                     try:
-                        tpl.save(os.path.join(path_of_HT,  renames + os.path.splitext(os.path.basename(file))[0].replace('-模板','').replace('模板','')   + os.path.splitext(os.path.basename(file))[1]))
-                        self.write_log_to_Text("INFO: %s success" % (renames + os.path.splitext(os.path.basename(file))[0].replace('-模板','').replace('模板','')))
+                        '''
+                        加入锁定文件名字的功能
+                        '''
+                        tpl.save(os.path.join(path_of_HT, save_file_name))
+                        self.write_log_to_Text("INFO: %s success" % (save_file_name))
+                        #set_of_variables = tpl.get_undeclared_template_variables()
+                        #print(set_of_variables)
                     except Exception as e:
                         self.write_log_to_Text("INFO: %s" %e)
                         showinfo(title = "提示",
@@ -196,8 +204,8 @@ class MY_GUI():
                             message = "模板可能存在的问题：{0}".format(str(e)))
                         raise e
                     try:
-                        tpl.save(os.path.join(path_of_HT,renames + os.path.splitext(os.path.basename(file))[0].replace('-模板','').replace('模板','')   + os.path.splitext(os.path.basename(file))[1]))
-                        self.write_log_to_Text("INFO: %s success" % (renames + os.path.splitext(os.path.basename(file))[0].replace('-模板','').replace('模板','')))
+                        tpl.save(os.path.join(path_of_HT,save_file_name))
+                        self.write_log_to_Text("INFO: %s success" % (save_file_name))
                     except Exception as e:
                         self.write_log_to_Text("INFO: %s" %e)
                         showinfo(title = "提示",
@@ -211,11 +219,9 @@ class MY_GUI():
             elif file.endswith('xlsm'):
                 try:
                     name = os.path.split(file)[-1]
-                    save_path = os.path.join(path_of_HT,renames + os.path.splitext(os.path.basename(file))[0].replace('-模板','').replace('模板','')   + os.path.splitext(os.path.basename(file))[1])
+                    save_path = os.path.join(path_of_HT,save_file_name)
                     workbook = openpyxl.load_workbook(file, keep_vba=True)
                     sheet = workbook['产品信息详表']
-                    #print(context)
-                    #print(context['项目全称'])
                     try:
                         sheet.cell(row = 18, column = 3).value = context['项目全称']
                     except:
@@ -289,25 +295,28 @@ class MY_GUI():
         w.Quit()
     def produce_pdf(self, context, path_of_MB,path_of_HT, renames):
         files = path_of_MB
-        #context = clean(context)
-        #'''if renames == '{{Names}}':
-        #    renames = '{{项目简称}}'''
         for file in files:
+            filename_ini = os.path.splitext(os.path.basename(file))[0].replace('-模板','').replace('模板','')
+            filename_type = os.path.splitext(os.path.basename(file))[1]
+            if "@" in filename_ini:
+                filename_ini = filename_ini.split("@")[1]
+            save_file_name = renames + filename_ini + filename_type
+            save_file_name_pdf = renames + filename_ini + ".pdf"
             if file.endswith('docx'):
                 try:
                     tpl = DocxTemplate(file)
                     try:
                         tpl.render(context)
                     except Exception as e:
-                        self.write_log_to_Text("INFO: %s faild" % (renames + os.path.splitext(os.path.basename(file))[0].replace('-模板','').replace('模板','')))
+                        self.write_log_to_Text("INFO: %s faild" % (save_file_name))
                         self.write_log_to_Text("INFO: %s" %e)
                         showinfo(title = "提示",
                             message = "模板可能存在的问题：{0}".format(str(e)))
                         raise e
                     try:
-                        tpl.save(os.path.join(path_of_HT,  renames + os.path.splitext(os.path.basename(file))[0].replace('-模板','').replace('模板','')   + os.path.splitext(os.path.basename(file))[1]))
-                        self.cleanword2pdf(os.path.join(path_of_HT, renames + os.path.splitext(os.path.basename(file))[0].replace('-模板','').replace('模板','')   + os.path.splitext(os.path.basename(file))[1]))
-                        self.write_log_to_Text("INFO: %s success" % (renames + os.path.splitext(os.path.basename(file))[0].replace('-模板','').replace('模板','')))
+                        tpl.save(os.path.join(path_of_HT,  save_file_name))
+                        self.cleanword2pdf(os.path.join(path_of_HT, save_file_name))
+                        self.write_log_to_Text("INFO: %s success" % (save_file_name))
                     except Exception as e:
                         self.write_log_to_Text("INFO: %s" %e)
                         showinfo(title = "提示",
@@ -324,14 +333,14 @@ class MY_GUI():
                     try:
                         tpl.render_sheet(context, 0, 0)
                     except Exception as e:
-                        self.write_log_to_Text("INFO: %s faild" % (renames + os.path.splitext(os.path.basename(file))[0].replace('-模板','').replace('模板','')))
+                        self.write_log_to_Text("INFO: %s faild" % (save_file_name))
                         self.write_log_to_Text("INFO: %s" %e)
                         showinfo(title = "提示",
                             message = "模板可能存在的问题：{0}".format(str(e)))
                         raise e
                     try:
-                        tpl.save(os.path.join(path_of_HT,renames + os.path.splitext(os.path.basename(file))[0].replace('-模板','').replace('模板','')   + os.path.splitext(os.path.basename(file))[1]))
-                        self.write_log_to_Text("INFO: %s success" % (renames + os.path.splitext(os.path.basename(file))[0].replace('-模板','').replace('模板','')))
+                        tpl.save(os.path.join(path_of_HT,save_file_name))
+                        self.write_log_to_Text("INFO: %s success" % (save_file_name))
                     except Exception as e:
                         self.write_log_to_Text("INFO: %s" %e)
                         showinfo(title = "提示",
@@ -345,7 +354,7 @@ class MY_GUI():
             elif file.endswith('xlsm'):
                 try:
                     name = os.path.split(file)[-1]
-                    save_path = os.path.join(path_of_HT,renames + os.path.splitext(os.path.basename(file))[0].replace('-模板','').replace('模板','')   + os.path.splitext(os.path.basename(file))[1])
+                    save_path = os.path.join(path_of_HT,save_file_name)
                     workbook = openpyxl.load_workbook(file, keep_vba=True)
                     sheet = workbook['产品信息详表']
                     #print(context)

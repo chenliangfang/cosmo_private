@@ -437,6 +437,7 @@ class MY_GUI():
                                     showinfo(title = "提示",
                                             message = "命名字段[%s]不在Table中" %rename)
                             Names = Names + rename
+                            
                     except Exception as e:
                         self.write_log_to_Text("INFO: %s" %e)
                         showinfo(title = "提示",
