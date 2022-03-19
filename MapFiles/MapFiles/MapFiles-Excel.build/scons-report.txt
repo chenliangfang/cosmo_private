@@ -1,10 +1,10 @@
 AS=as
 CC=C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe "C:\mingw64\bin\gcc.exe"
 CCACHE_DIR=C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
-CCACHE_LOGFILE=E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-Excel.build\ccache-12776.txt
+CCACHE_LOGFILE=E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-Excel.build\ccache-18444.txt
 CCCOM=$CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
 CFILESUFFIX=.c
-CPPDEFINES=['_WIN32_WINNT=0x0501', '_NUITKA_STANDALONE', '_NUITKA_WINMAIN_ENTRY_POINT', '__NUITKA_NO_ASSERT__', 'MS_WIN64', '_NUITKA_CONSTANTS_FROM_RESOURCE', '_NUITKA_FROZEN=165', '_NUITKA_EXE']
+CPPDEFINES=['_WIN32_WINNT=0x0501', '_NUITKA_STANDALONE', '__NUITKA_NO_ASSERT__', 'MS_WIN64', '_NUITKA_CONSTANTS_FROM_RESOURCE', '_NUITKA_FROZEN=165', '_NUITKA_EXE']
 CPPDEFPREFIX=-D
 CPPDEFSUFFIX=
 CPPPATH=['D:\\Anaconda3\\include', '.', 'D:\\ANACON~1\\lib\\SITE-P~1\\nuitka\\build\\include', 'D:\\ANACON~1\\lib\\SITE-P~1\\nuitka\\build\\static_src']

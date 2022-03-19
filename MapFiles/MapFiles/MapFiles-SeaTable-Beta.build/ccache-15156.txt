@@ -1,0 +1,1740 @@
+[2022-03-14T22:10:38.113494 12220] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:38.113494 12220] Config: (default) base_dir = 
+[2022-03-14T22:10:38.113494 12220] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:38.113494 12220] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:38.113494 12220] Config: (default) compiler = 
+[2022-03-14T22:10:38.113494 12220] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:38.113494 12220] Config: (default) compression = false
+[2022-03-14T22:10:38.113494 12220] Config: (default) compression_level = 6
+[2022-03-14T22:10:38.113494 12220] Config: (default) cpp_extension = 
+[2022-03-14T22:10:38.113494 12220] Config: (default) debug = false
+[2022-03-14T22:10:38.113494 12220] Config: (default) depend_mode = false
+[2022-03-14T22:10:38.113494 12220] Config: (default) direct_mode = true
+[2022-03-14T22:10:38.113494 12220] Config: (default) disable = false
+[2022-03-14T22:10:38.113494 12220] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:38.113494 12220] Config: (default) hard_link = false
+[2022-03-14T22:10:38.113494 12220] Config: (default) hash_dir = true
+[2022-03-14T22:10:38.113494 12220] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:38.113494 12220] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:38.113494 12220] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:38.113494 12220] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:38.113494 12220] Config: (default) max_files = 0
+[2022-03-14T22:10:38.113494 12220] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:38.113494 12220] Config: (default) path = 
+[2022-03-14T22:10:38.113494 12220] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:38.113494 12220] Config: (default) prefix_command = 
+[2022-03-14T22:10:38.113494 12220] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:38.113494 12220] Config: (default) read_only = false
+[2022-03-14T22:10:38.113494 12220] Config: (default) read_only_direct = false
+[2022-03-14T22:10:38.113494 12220] Config: (default) recache = false
+[2022-03-14T22:10:38.113494 12220] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:38.113494 12220] Config: (default) sloppiness = 
+[2022-03-14T22:10:38.113494 12220] Config: (default) stats = true
+[2022-03-14T22:10:38.113494 12220] Config: (default) temporary_dir = 
+[2022-03-14T22:10:38.113494 12220] Config: (default) umask = 
+[2022-03-14T22:10:38.116485 12220] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o __helpers.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src __helpers.c
+[2022-03-14T22:10:38.116485 12220] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:38.116485 12220] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:38.120475 12220] Source file: __helpers.c
+[2022-03-14T22:10:38.120475 12220] Object file: __helpers.o
+[2022-03-14T22:10:38.120475 12220] Trying direct lookup
+[2022-03-14T22:10:38.121472 12220] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/d/258d9b474e632fc69573d1846ea9a6-88715.manifest
+[2022-03-14T22:10:38.153387 2328 ] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) base_dir = 
+[2022-03-14T22:10:38.153387 2328 ] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) compiler = 
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) compression = false
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) compression_level = 6
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) cpp_extension = 
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) debug = false
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) depend_mode = false
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) direct_mode = true
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) disable = false
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) hard_link = false
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) hash_dir = true
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:38.153387 2328 ] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) max_files = 0
+[2022-03-14T22:10:38.153387 2328 ] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) path = 
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) prefix_command = 
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) read_only = false
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) read_only_direct = false
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) recache = false
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) sloppiness = 
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) stats = true
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) temporary_dir = 
+[2022-03-14T22:10:38.153387 2328 ] Config: (default) umask = 
+[2022-03-14T22:10:38.154384 2328 ] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o __constants.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src __constants.c
+[2022-03-14T22:10:38.154384 2328 ] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:38.154384 2328 ] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:38.155382 2328 ] Source file: __constants.c
+[2022-03-14T22:10:38.155382 2328 ] Object file: __constants.o
+[2022-03-14T22:10:38.155382 2328 ] Trying direct lookup
+[2022-03-14T22:10:38.155382 2328 ] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/4/298fa3ffd578c05344adcb029e8d33-4615.manifest
+[2022-03-14T22:10:38.505447 5336 ] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) base_dir = 
+[2022-03-14T22:10:38.505447 5336 ] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) compiler = 
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) compression = false
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) compression_level = 6
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) cpp_extension = 
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) debug = false
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) depend_mode = false
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) direct_mode = true
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) disable = false
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) hard_link = false
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) hash_dir = true
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:38.505447 5336 ] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) max_files = 0
+[2022-03-14T22:10:38.505447 5336 ] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) path = 
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) prefix_command = 
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) read_only = false
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) read_only_direct = false
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) recache = false
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) sloppiness = 
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) stats = true
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) temporary_dir = 
+[2022-03-14T22:10:38.505447 5336 ] Config: (default) umask = 
+[2022-03-14T22:10:38.505447 5336 ] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o __loader.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src __loader.c
+[2022-03-14T22:10:38.506443 5336 ] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:38.506443 5336 ] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:38.506443 5336 ] Source file: __loader.c
+[2022-03-14T22:10:38.506443 5336 ] Object file: __loader.o
+[2022-03-14T22:10:38.506443 5336 ] Trying direct lookup
+[2022-03-14T22:10:38.507440 5336 ] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/2/b3ce68a4dc2251b24118a6dc3f7b3c-55627.manifest
+[2022-03-14T22:10:38.508438 5336 ] No such manifest file
+[2022-03-14T22:10:38.508438 5336 ] Did not find object file hash in manifest
+[2022-03-14T22:10:38.511430 5336 ] Running preprocessor
+[2022-03-14T22:10:38.585233 6624 ] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) base_dir = 
+[2022-03-14T22:10:38.585233 6624 ] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) compiler = 
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) compression = false
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) compression_level = 6
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) cpp_extension = 
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) debug = false
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) depend_mode = false
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) direct_mode = true
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) disable = false
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) hard_link = false
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) hash_dir = true
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:38.585233 6624 ] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) max_files = 0
+[2022-03-14T22:10:38.585233 6624 ] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) path = 
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) prefix_command = 
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) read_only = false
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) read_only_direct = false
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) recache = false
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) sloppiness = 
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) stats = true
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) temporary_dir = 
+[2022-03-14T22:10:38.585233 6624 ] Config: (default) umask = 
+[2022-03-14T22:10:38.586230 6624 ] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.__main__.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.__main__.c
+[2022-03-14T22:10:38.586230 6624 ] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:38.586230 6624 ] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:38.589223 6624 ] Source file: module.__main__.c
+[2022-03-14T22:10:38.589223 6624 ] Object file: module.__main__.o
+[2022-03-14T22:10:38.589223 6624 ] Trying direct lookup
+[2022-03-14T22:10:38.595207 6624 ] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/5/042db624cf1b6bd774aeaf7cc43aa3-1249515.manifest
+[2022-03-14T22:10:38.597200 6624 ] No such manifest file
+[2022-03-14T22:10:38.597200 6624 ] Did not find object file hash in manifest
+[2022-03-14T22:10:38.598213 6624 ] Running preprocessor
+[2022-03-14T22:10:38.651057 2328 ] Got object file hash from manifest
+[2022-03-14T22:10:38.654048 2328 ] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/2/6300c837a80c6567eed30f7313067d-555391.o to __constants.o (uncompressed)
+[2022-03-14T22:10:38.654048 2328 ] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/2/6300c837a80c6567eed30f7313067d-555391.o -> __constants.o
+[2022-03-14T22:10:38.655046 2328 ] Succeeded getting cached result
+[2022-03-14T22:10:38.656043 2328 ] Result: cache hit (direct)
+[2022-03-14T22:10:38.656043 2328 ] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/stats.lock
+[2022-03-14T22:10:38.661029 2328 ] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/stats.lock
+[2022-03-14T22:10:38.671003 12220] Got object file hash from manifest
+[2022-03-14T22:10:38.673996 12220] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/e/184c9352372f3d673ab6b2a7356503-610624.o to __helpers.o (uncompressed)
+[2022-03-14T22:10:38.674994 12220] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/e/184c9352372f3d673ab6b2a7356503-610624.o -> __helpers.o
+[2022-03-14T22:10:38.675990 12220] Succeeded getting cached result
+[2022-03-14T22:10:38.675990 12220] Result: cache hit (direct)
+[2022-03-14T22:10:38.676987 12220] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2022-03-14T22:10:38.683969 12220] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2022-03-14T22:10:38.830576 19656] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:38.830576 19656] Config: (default) base_dir = 
+[2022-03-14T22:10:38.830576 19656] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:38.830576 19656] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:38.830576 19656] Config: (default) compiler = 
+[2022-03-14T22:10:38.830576 19656] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:38.830576 19656] Config: (default) compression = false
+[2022-03-14T22:10:38.830576 19656] Config: (default) compression_level = 6
+[2022-03-14T22:10:38.830576 19656] Config: (default) cpp_extension = 
+[2022-03-14T22:10:38.830576 19656] Config: (default) debug = false
+[2022-03-14T22:10:38.830576 19656] Config: (default) depend_mode = false
+[2022-03-14T22:10:38.830576 19656] Config: (default) direct_mode = true
+[2022-03-14T22:10:38.830576 19656] Config: (default) disable = false
+[2022-03-14T22:10:38.830576 19656] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:38.830576 19656] Config: (default) hard_link = false
+[2022-03-14T22:10:38.830576 19656] Config: (default) hash_dir = true
+[2022-03-14T22:10:38.830576 19656] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:38.830576 19656] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:38.830576 19656] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:38.830576 19656] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:38.830576 19656] Config: (default) max_files = 0
+[2022-03-14T22:10:38.830576 19656] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:38.830576 19656] Config: (default) path = 
+[2022-03-14T22:10:38.830576 19656] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:38.830576 19656] Config: (default) prefix_command = 
+[2022-03-14T22:10:38.830576 19656] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:38.830576 19656] Config: (default) read_only = false
+[2022-03-14T22:10:38.830576 19656] Config: (default) read_only_direct = false
+[2022-03-14T22:10:38.830576 19656] Config: (default) recache = false
+[2022-03-14T22:10:38.830576 19656] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:38.830576 19656] Config: (default) sloppiness = 
+[2022-03-14T22:10:38.830576 19656] Config: (default) stats = true
+[2022-03-14T22:10:38.830576 19656] Config: (default) temporary_dir = 
+[2022-03-14T22:10:38.830576 19656] Config: (default) umask = 
+[2022-03-14T22:10:38.832571 19656] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.lxml._elementpath.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.lxml._elementpath.c
+[2022-03-14T22:10:38.832571 19656] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:38.832571 19656] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:38.832571 19656] Source file: module.lxml._elementpath.c
+[2022-03-14T22:10:38.832571 19656] Object file: module.lxml._elementpath.o
+[2022-03-14T22:10:38.834565 19656] Trying direct lookup
+[2022-03-14T22:10:38.836560 19656] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/1/cc9c75b1194272cc35486287342aba-566685.manifest
+[2022-03-14T22:10:38.908368 17972] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:38.908368 17972] Config: (default) base_dir = 
+[2022-03-14T22:10:38.908368 17972] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:38.908368 17972] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:38.908368 17972] Config: (default) compiler = 
+[2022-03-14T22:10:38.908368 17972] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:38.908368 17972] Config: (default) compression = false
+[2022-03-14T22:10:38.908368 17972] Config: (default) compression_level = 6
+[2022-03-14T22:10:38.908368 17972] Config: (default) cpp_extension = 
+[2022-03-14T22:10:38.908368 17972] Config: (default) debug = false
+[2022-03-14T22:10:38.908368 17972] Config: (default) depend_mode = false
+[2022-03-14T22:10:38.908368 17972] Config: (default) direct_mode = true
+[2022-03-14T22:10:38.908368 17972] Config: (default) disable = false
+[2022-03-14T22:10:38.908368 17972] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:38.908368 17972] Config: (default) hard_link = false
+[2022-03-14T22:10:38.908368 17972] Config: (default) hash_dir = true
+[2022-03-14T22:10:38.908368 17972] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:38.908368 17972] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:38.908368 17972] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:38.908368 17972] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:38.908368 17972] Config: (default) max_files = 0
+[2022-03-14T22:10:38.908368 17972] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:38.908368 17972] Config: (default) path = 
+[2022-03-14T22:10:38.908368 17972] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:38.908368 17972] Config: (default) prefix_command = 
+[2022-03-14T22:10:38.908368 17972] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:38.908368 17972] Config: (default) read_only = false
+[2022-03-14T22:10:38.908368 17972] Config: (default) read_only_direct = false
+[2022-03-14T22:10:38.908368 17972] Config: (default) recache = false
+[2022-03-14T22:10:38.908368 17972] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:38.908368 17972] Config: (default) sloppiness = 
+[2022-03-14T22:10:38.908368 17972] Config: (default) stats = true
+[2022-03-14T22:10:38.908368 17972] Config: (default) temporary_dir = 
+[2022-03-14T22:10:38.908368 17972] Config: (default) umask = 
+[2022-03-14T22:10:38.909365 17972] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.lxml.ElementInclude.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.lxml.ElementInclude.c
+[2022-03-14T22:10:38.910362 17972] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:38.910362 17972] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:38.910362 17972] Source file: module.lxml.ElementInclude.c
+[2022-03-14T22:10:38.910362 17972] Object file: module.lxml.ElementInclude.o
+[2022-03-14T22:10:38.911360 17972] Trying direct lookup
+[2022-03-14T22:10:38.914352 17972] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/d/7ba2e8860ad6721a345158bfb579ce-242743.manifest
+[2022-03-14T22:10:39.257434 19656] Got object file hash from manifest
+[2022-03-14T22:10:39.260427 19656] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/5/6540b9ed4c3b9473218cb7c8c3e09f-1120353.o to module.lxml._elementpath.o (uncompressed)
+[2022-03-14T22:10:39.271397 19656] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/5/6540b9ed4c3b9473218cb7c8c3e09f-1120353.o -> module.lxml._elementpath.o
+[2022-03-14T22:10:39.272395 19656] Succeeded getting cached result
+[2022-03-14T22:10:39.272395 19656] Result: cache hit (direct)
+[2022-03-14T22:10:39.334229 19656] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2022-03-14T22:10:39.336224 19656] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2022-03-14T22:10:39.351186 17972] Got object file hash from manifest
+[2022-03-14T22:10:39.357170 17972] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/9/6aa5b85a4037044c5ec0ec745557ce-791454.o to module.lxml.ElementInclude.o (uncompressed)
+[2022-03-14T22:10:39.358165 17972] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/9/6aa5b85a4037044c5ec0ec745557ce-791454.o -> module.lxml.ElementInclude.o
+[2022-03-14T22:10:39.359163 17972] Succeeded getting cached result
+[2022-03-14T22:10:39.359163 17972] Result: cache hit (direct)
+[2022-03-14T22:10:39.360160 17972] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2022-03-14T22:10:39.407035 17972] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2022-03-14T22:10:39.677313 14696] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:39.677313 14696] Config: (default) base_dir = 
+[2022-03-14T22:10:39.677313 14696] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:39.677313 14696] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:39.677313 14696] Config: (default) compiler = 
+[2022-03-14T22:10:39.677313 14696] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:39.677313 14696] Config: (default) compression = false
+[2022-03-14T22:10:39.677313 14696] Config: (default) compression_level = 6
+[2022-03-14T22:10:39.677313 14696] Config: (default) cpp_extension = 
+[2022-03-14T22:10:39.677313 14696] Config: (default) debug = false
+[2022-03-14T22:10:39.677313 14696] Config: (default) depend_mode = false
+[2022-03-14T22:10:39.677313 14696] Config: (default) direct_mode = true
+[2022-03-14T22:10:39.677313 14696] Config: (default) disable = false
+[2022-03-14T22:10:39.677313 14696] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:39.677313 14696] Config: (default) hard_link = false
+[2022-03-14T22:10:39.677313 14696] Config: (default) hash_dir = true
+[2022-03-14T22:10:39.677313 14696] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:39.677313 14696] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:39.677313 14696] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:39.677313 14696] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:39.677313 14696] Config: (default) max_files = 0
+[2022-03-14T22:10:39.677313 14696] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:39.677313 14696] Config: (default) path = 
+[2022-03-14T22:10:39.677313 14696] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:39.677313 14696] Config: (default) prefix_command = 
+[2022-03-14T22:10:39.677313 14696] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:39.677313 14696] Config: (default) read_only = false
+[2022-03-14T22:10:39.677313 14696] Config: (default) read_only_direct = false
+[2022-03-14T22:10:39.677313 14696] Config: (default) recache = false
+[2022-03-14T22:10:39.677313 14696] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:39.677313 14696] Config: (default) sloppiness = 
+[2022-03-14T22:10:39.677313 14696] Config: (default) stats = true
+[2022-03-14T22:10:39.677313 14696] Config: (default) temporary_dir = 
+[2022-03-14T22:10:39.677313 14696] Config: (default) umask = 
+[2022-03-14T22:10:39.679308 14696] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.lxml.builder.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.lxml.builder.c
+[2022-03-14T22:10:39.679308 14696] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:39.679308 14696] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:39.680305 14696] Source file: module.lxml.builder.c
+[2022-03-14T22:10:39.680305 14696] Object file: module.lxml.builder.o
+[2022-03-14T22:10:39.680305 14696] Trying direct lookup
+[2022-03-14T22:10:39.682303 14696] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/e/445e21194a0a8ff59822ba466c7d17-205763.manifest
+[2022-03-14T22:10:39.801979 21060] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:39.801979 21060] Config: (default) base_dir = 
+[2022-03-14T22:10:39.801979 21060] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:39.801979 21060] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:39.801979 21060] Config: (default) compiler = 
+[2022-03-14T22:10:39.801979 21060] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:39.801979 21060] Config: (default) compression = false
+[2022-03-14T22:10:39.801979 21060] Config: (default) compression_level = 6
+[2022-03-14T22:10:39.801979 21060] Config: (default) cpp_extension = 
+[2022-03-14T22:10:39.801979 21060] Config: (default) debug = false
+[2022-03-14T22:10:39.801979 21060] Config: (default) depend_mode = false
+[2022-03-14T22:10:39.801979 21060] Config: (default) direct_mode = true
+[2022-03-14T22:10:39.801979 21060] Config: (default) disable = false
+[2022-03-14T22:10:39.801979 21060] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:39.801979 21060] Config: (default) hard_link = false
+[2022-03-14T22:10:39.801979 21060] Config: (default) hash_dir = true
+[2022-03-14T22:10:39.801979 21060] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:39.801979 21060] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:39.801979 21060] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:39.801979 21060] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:39.801979 21060] Config: (default) max_files = 0
+[2022-03-14T22:10:39.801979 21060] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:39.801979 21060] Config: (default) path = 
+[2022-03-14T22:10:39.801979 21060] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:39.801979 21060] Config: (default) prefix_command = 
+[2022-03-14T22:10:39.801979 21060] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:39.801979 21060] Config: (default) read_only = false
+[2022-03-14T22:10:39.801979 21060] Config: (default) read_only_direct = false
+[2022-03-14T22:10:39.801979 21060] Config: (default) recache = false
+[2022-03-14T22:10:39.801979 21060] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:39.801979 21060] Config: (default) sloppiness = 
+[2022-03-14T22:10:39.801979 21060] Config: (default) stats = true
+[2022-03-14T22:10:39.801979 21060] Config: (default) temporary_dir = 
+[2022-03-14T22:10:39.801979 21060] Config: (default) umask = 
+[2022-03-14T22:10:39.802976 21060] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.lxml.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.lxml.c
+[2022-03-14T22:10:39.803974 21060] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:39.803974 21060] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:39.803974 21060] Source file: module.lxml.c
+[2022-03-14T22:10:39.803974 21060] Object file: module.lxml.o
+[2022-03-14T22:10:39.803974 21060] Trying direct lookup
+[2022-03-14T22:10:39.804971 21060] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/1/1a04a5f238eb895f35932cce2e7e34-49610.manifest
+[2022-03-14T22:10:40.047323 21060] Got object file hash from manifest
+[2022-03-14T22:10:40.053306 21060] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/3/e607a7d701497f33a66ecc1a1e4911-591863.o to module.lxml.o (uncompressed)
+[2022-03-14T22:10:40.091205 14696] Got object file hash from manifest
+[2022-03-14T22:10:40.095195 14696] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/4/5be61b2835ee96104b6f33ff712f91-747296.o to module.lxml.builder.o (uncompressed)
+[2022-03-14T22:10:40.097189 14696] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/4/5be61b2835ee96104b6f33ff712f91-747296.o -> module.lxml.builder.o
+[2022-03-14T22:10:40.099184 14696] Succeeded getting cached result
+[2022-03-14T22:10:40.099184 14696] Result: cache hit (direct)
+[2022-03-14T22:10:40.101187 14696] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2022-03-14T22:10:40.106166 14696] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2022-03-14T22:10:40.125115 21060] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/3/e607a7d701497f33a66ecc1a1e4911-591863.o -> module.lxml.o
+[2022-03-14T22:10:40.131099 21060] Succeeded getting cached result
+[2022-03-14T22:10:40.131099 21060] Result: cache hit (direct)
+[2022-03-14T22:10:40.159024 5336 ] Got object file hash from preprocessor
+[2022-03-14T22:10:40.170001 5336 ] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/2/e09da92084bed8ff6e4486781bc303-426863.o to __loader.o (uncompressed)
+[2022-03-14T22:10:40.183968 5336 ] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/2/e09da92084bed8ff6e4486781bc303-426863.o -> __loader.o
+[2022-03-14T22:10:40.211883 21060] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2022-03-14T22:10:40.216878 21060] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2022-03-14T22:10:40.273717 5336 ] Added object file hash to C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/2/b3ce68a4dc2251b24118a6dc3f7b3c-55627.manifest
+[2022-03-14T22:10:40.274714 5336 ] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/stats.lock
+[2022-03-14T22:10:40.282702 5336 ] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/stats.lock
+[2022-03-14T22:10:40.283701 5336 ] Succeeded getting cached result
+[2022-03-14T22:10:40.286683 5336 ] Result: cache hit (preprocessed)
+[2022-03-14T22:10:40.286683 5336 ] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2022-03-14T22:10:40.289675 5336 ] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2022-03-14T22:10:40.447254 11568] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:40.447254 11568] Config: (default) base_dir = 
+[2022-03-14T22:10:40.447254 11568] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:40.447254 11568] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:40.447254 11568] Config: (default) compiler = 
+[2022-03-14T22:10:40.447254 11568] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:40.447254 11568] Config: (default) compression = false
+[2022-03-14T22:10:40.447254 11568] Config: (default) compression_level = 6
+[2022-03-14T22:10:40.447254 11568] Config: (default) cpp_extension = 
+[2022-03-14T22:10:40.447254 11568] Config: (default) debug = false
+[2022-03-14T22:10:40.447254 11568] Config: (default) depend_mode = false
+[2022-03-14T22:10:40.447254 11568] Config: (default) direct_mode = true
+[2022-03-14T22:10:40.447254 11568] Config: (default) disable = false
+[2022-03-14T22:10:40.447254 11568] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:40.447254 11568] Config: (default) hard_link = false
+[2022-03-14T22:10:40.447254 11568] Config: (default) hash_dir = true
+[2022-03-14T22:10:40.447254 11568] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:40.447254 11568] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:40.447254 11568] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:40.447254 11568] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:40.447254 11568] Config: (default) max_files = 0
+[2022-03-14T22:10:40.447254 11568] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:40.447254 11568] Config: (default) path = 
+[2022-03-14T22:10:40.447254 11568] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:40.447254 11568] Config: (default) prefix_command = 
+[2022-03-14T22:10:40.447254 11568] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:40.447254 11568] Config: (default) read_only = false
+[2022-03-14T22:10:40.447254 11568] Config: (default) read_only_direct = false
+[2022-03-14T22:10:40.447254 11568] Config: (default) recache = false
+[2022-03-14T22:10:40.447254 11568] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:40.447254 11568] Config: (default) sloppiness = 
+[2022-03-14T22:10:40.447254 11568] Config: (default) stats = true
+[2022-03-14T22:10:40.447254 11568] Config: (default) temporary_dir = 
+[2022-03-14T22:10:40.447254 11568] Config: (default) umask = 
+[2022-03-14T22:10:40.448251 11568] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.lxml.cssselect.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.lxml.cssselect.c
+[2022-03-14T22:10:40.448251 11568] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:40.448251 11568] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:40.449248 11568] Source file: module.lxml.cssselect.c
+[2022-03-14T22:10:40.449248 11568] Object file: module.lxml.cssselect.o
+[2022-03-14T22:10:40.450245 11568] Trying direct lookup
+[2022-03-14T22:10:40.451242 11568] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/1/47c0922c5bd253ed80322c7918876b-172605.manifest
+[2022-03-14T22:10:40.470192 10992] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:40.470192 10992] Config: (default) base_dir = 
+[2022-03-14T22:10:40.470192 10992] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:40.470192 10992] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:40.470192 10992] Config: (default) compiler = 
+[2022-03-14T22:10:40.470192 10992] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:40.470192 10992] Config: (default) compression = false
+[2022-03-14T22:10:40.470192 10992] Config: (default) compression_level = 6
+[2022-03-14T22:10:40.470192 10992] Config: (default) cpp_extension = 
+[2022-03-14T22:10:40.470192 10992] Config: (default) debug = false
+[2022-03-14T22:10:40.470192 10992] Config: (default) depend_mode = false
+[2022-03-14T22:10:40.470192 10992] Config: (default) direct_mode = true
+[2022-03-14T22:10:40.470192 10992] Config: (default) disable = false
+[2022-03-14T22:10:40.470192 10992] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:40.470192 10992] Config: (default) hard_link = false
+[2022-03-14T22:10:40.470192 10992] Config: (default) hash_dir = true
+[2022-03-14T22:10:40.470192 10992] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:40.470192 10992] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:40.470192 10992] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:40.470192 10992] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:40.470192 10992] Config: (default) max_files = 0
+[2022-03-14T22:10:40.470192 10992] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:40.470192 10992] Config: (default) path = 
+[2022-03-14T22:10:40.470192 10992] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:40.470192 10992] Config: (default) prefix_command = 
+[2022-03-14T22:10:40.470192 10992] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:40.470192 10992] Config: (default) read_only = false
+[2022-03-14T22:10:40.470192 10992] Config: (default) read_only_direct = false
+[2022-03-14T22:10:40.470192 10992] Config: (default) recache = false
+[2022-03-14T22:10:40.470192 10992] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:40.470192 10992] Config: (default) sloppiness = 
+[2022-03-14T22:10:40.470192 10992] Config: (default) stats = true
+[2022-03-14T22:10:40.470192 10992] Config: (default) temporary_dir = 
+[2022-03-14T22:10:40.470192 10992] Config: (default) umask = 
+[2022-03-14T22:10:40.471189 10992] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.lxml.html.ElementSoup.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.lxml.html.ElementSoup.c
+[2022-03-14T22:10:40.471189 10992] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:40.471189 10992] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:40.471189 10992] Source file: module.lxml.html.ElementSoup.c
+[2022-03-14T22:10:40.471189 10992] Object file: module.lxml.html.ElementSoup.o
+[2022-03-14T22:10:40.472187 10992] Trying direct lookup
+[2022-03-14T22:10:40.472187 10992] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/2/a1b2c1730cfebc89f80470ebfa003c-34842.manifest
+[2022-03-14T22:10:40.526043 4416 ] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) base_dir = 
+[2022-03-14T22:10:40.526043 4416 ] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) compiler = 
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) compression = false
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) compression_level = 6
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) cpp_extension = 
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) debug = false
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) depend_mode = false
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) direct_mode = true
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) disable = false
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) hard_link = false
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) hash_dir = true
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:40.526043 4416 ] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) max_files = 0
+[2022-03-14T22:10:40.526043 4416 ] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) path = 
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) prefix_command = 
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) read_only = false
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) read_only_direct = false
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) recache = false
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) sloppiness = 
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) stats = true
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) temporary_dir = 
+[2022-03-14T22:10:40.526043 4416 ] Config: (default) umask = 
+[2022-03-14T22:10:40.527040 4416 ] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.lxml.doctestcompare.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.lxml.doctestcompare.c
+[2022-03-14T22:10:40.527040 4416 ] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:40.527040 4416 ] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:40.528037 4416 ] Source file: module.lxml.doctestcompare.c
+[2022-03-14T22:10:40.528037 4416 ] Object file: module.lxml.doctestcompare.o
+[2022-03-14T22:10:40.528037 4416 ] Trying direct lookup
+[2022-03-14T22:10:40.533023 4416 ] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/0/0035ae9bbdab8005e2334653104298-947113.manifest
+[2022-03-14T22:10:40.664672 6624 ] Got object file hash from preprocessor
+[2022-03-14T22:10:40.666666 6624 ] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/8/7af514784a7606cbf9bda069abc8f4-1839366.o to module.__main__.o (uncompressed)
+[2022-03-14T22:10:40.668662 6624 ] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/8/7af514784a7606cbf9bda069abc8f4-1839366.o -> module.__main__.o
+[2022-03-14T22:10:40.675643 10992] Got object file hash from manifest
+[2022-03-14T22:10:40.678635 10992] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/1/2fe19c1fa9ce86a73d16d854dcc796-576690.o to module.lxml.html.ElementSoup.o (uncompressed)
+[2022-03-14T22:10:40.679632 10992] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/1/2fe19c1fa9ce86a73d16d854dcc796-576690.o -> module.lxml.html.ElementSoup.o
+[2022-03-14T22:10:40.680629 10992] Succeeded getting cached result
+[2022-03-14T22:10:40.680629 10992] Result: cache hit (direct)
+[2022-03-14T22:10:40.681627 10992] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2022-03-14T22:10:40.684619 10992] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2022-03-14T22:10:40.686613 6624 ] Added object file hash to C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/5/042db624cf1b6bd774aeaf7cc43aa3-1249515.manifest
+[2022-03-14T22:10:40.686613 6624 ] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2022-03-14T22:10:40.688609 6624 ] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2022-03-14T22:10:40.689606 6624 ] Succeeded getting cached result
+[2022-03-14T22:10:40.693606 6624 ] Result: cache hit (preprocessed)
+[2022-03-14T22:10:40.694593 6624 ] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2022-03-14T22:10:40.696587 6624 ] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2022-03-14T22:10:40.718529 4416 ] Got object file hash from manifest
+[2022-03-14T22:10:40.720523 4416 ] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/7/e3f71aca8832dbbeea4602098d6943-1504517.o to module.lxml.doctestcompare.o (uncompressed)
+[2022-03-14T22:10:40.723515 4416 ] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/7/e3f71aca8832dbbeea4602098d6943-1504517.o -> module.lxml.doctestcompare.o
+[2022-03-14T22:10:40.724512 4416 ] Succeeded getting cached result
+[2022-03-14T22:10:40.724512 4416 ] Result: cache hit (direct)
+[2022-03-14T22:10:40.725509 4416 ] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/stats.lock
+[2022-03-14T22:10:40.727505 4416 ] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/stats.lock
+[2022-03-14T22:10:40.746454 21376] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:40.746454 21376] Config: (default) base_dir = 
+[2022-03-14T22:10:40.746454 21376] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:40.746454 21376] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:40.746454 21376] Config: (default) compiler = 
+[2022-03-14T22:10:40.746454 21376] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:40.746454 21376] Config: (default) compression = false
+[2022-03-14T22:10:40.746454 21376] Config: (default) compression_level = 6
+[2022-03-14T22:10:40.746454 21376] Config: (default) cpp_extension = 
+[2022-03-14T22:10:40.746454 21376] Config: (default) debug = false
+[2022-03-14T22:10:40.746454 21376] Config: (default) depend_mode = false
+[2022-03-14T22:10:40.746454 21376] Config: (default) direct_mode = true
+[2022-03-14T22:10:40.746454 21376] Config: (default) disable = false
+[2022-03-14T22:10:40.746454 21376] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:40.746454 21376] Config: (default) hard_link = false
+[2022-03-14T22:10:40.746454 21376] Config: (default) hash_dir = true
+[2022-03-14T22:10:40.746454 21376] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:40.746454 21376] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:40.746454 21376] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:40.746454 21376] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:40.746454 21376] Config: (default) max_files = 0
+[2022-03-14T22:10:40.746454 21376] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:40.746454 21376] Config: (default) path = 
+[2022-03-14T22:10:40.746454 21376] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:40.746454 21376] Config: (default) prefix_command = 
+[2022-03-14T22:10:40.746454 21376] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:40.746454 21376] Config: (default) read_only = false
+[2022-03-14T22:10:40.746454 21376] Config: (default) read_only_direct = false
+[2022-03-14T22:10:40.746454 21376] Config: (default) recache = false
+[2022-03-14T22:10:40.746454 21376] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:40.746454 21376] Config: (default) sloppiness = 
+[2022-03-14T22:10:40.746454 21376] Config: (default) stats = true
+[2022-03-14T22:10:40.746454 21376] Config: (default) temporary_dir = 
+[2022-03-14T22:10:40.746454 21376] Config: (default) umask = 
+[2022-03-14T22:10:40.747451 21376] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.lxml.html._diffcommand.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.lxml.html._diffcommand.c
+[2022-03-14T22:10:40.747451 21376] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:40.747451 21376] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:40.748449 21376] Source file: module.lxml.html._diffcommand.c
+[2022-03-14T22:10:40.748449 21376] Object file: module.lxml.html._diffcommand.o
+[2022-03-14T22:10:40.748449 21376] Trying direct lookup
+[2022-03-14T22:10:40.749445 21376] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/f/5b720f6eafd03b8319d1baffe0cdd9-176620.manifest
+[2022-03-14T22:10:40.781360 11568] Got object file hash from manifest
+[2022-03-14T22:10:40.782357 11568] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/e/aabd6b7562beb0a5795eeccb26ec2a-712054.o to module.lxml.cssselect.o (uncompressed)
+[2022-03-14T22:10:40.784352 11568] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/e/aabd6b7562beb0a5795eeccb26ec2a-712054.o -> module.lxml.cssselect.o
+[2022-03-14T22:10:40.787344 11568] Succeeded getting cached result
+[2022-03-14T22:10:40.787344 11568] Result: cache hit (direct)
+[2022-03-14T22:10:40.788342 11568] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2022-03-14T22:10:40.856160 11568] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2022-03-14T22:10:40.880095 10976] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:40.880095 10976] Config: (default) base_dir = 
+[2022-03-14T22:10:40.880095 10976] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:40.880095 10976] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:40.880095 10976] Config: (default) compiler = 
+[2022-03-14T22:10:40.880095 10976] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:40.880095 10976] Config: (default) compression = false
+[2022-03-14T22:10:40.880095 10976] Config: (default) compression_level = 6
+[2022-03-14T22:10:40.880095 10976] Config: (default) cpp_extension = 
+[2022-03-14T22:10:40.880095 10976] Config: (default) debug = false
+[2022-03-14T22:10:40.880095 10976] Config: (default) depend_mode = false
+[2022-03-14T22:10:40.880095 10976] Config: (default) direct_mode = true
+[2022-03-14T22:10:40.880095 10976] Config: (default) disable = false
+[2022-03-14T22:10:40.880095 10976] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:40.880095 10976] Config: (default) hard_link = false
+[2022-03-14T22:10:40.880095 10976] Config: (default) hash_dir = true
+[2022-03-14T22:10:40.880095 10976] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:40.880095 10976] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:40.880095 10976] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:40.880095 10976] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:40.880095 10976] Config: (default) max_files = 0
+[2022-03-14T22:10:40.880095 10976] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:40.880095 10976] Config: (default) path = 
+[2022-03-14T22:10:40.880095 10976] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:40.880095 10976] Config: (default) prefix_command = 
+[2022-03-14T22:10:40.880095 10976] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:40.880095 10976] Config: (default) read_only = false
+[2022-03-14T22:10:40.880095 10976] Config: (default) read_only_direct = false
+[2022-03-14T22:10:40.880095 10976] Config: (default) recache = false
+[2022-03-14T22:10:40.880095 10976] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:40.880095 10976] Config: (default) sloppiness = 
+[2022-03-14T22:10:40.880095 10976] Config: (default) stats = true
+[2022-03-14T22:10:40.880095 10976] Config: (default) temporary_dir = 
+[2022-03-14T22:10:40.880095 10976] Config: (default) umask = 
+[2022-03-14T22:10:40.881094 10976] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.lxml.html._html5builder.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.lxml.html._html5builder.c
+[2022-03-14T22:10:40.881094 10976] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:40.881094 10976] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:40.881094 10976] Source file: module.lxml.html._html5builder.c
+[2022-03-14T22:10:40.881094 10976] Object file: module.lxml.html._html5builder.o
+[2022-03-14T22:10:40.882090 10976] Trying direct lookup
+[2022-03-14T22:10:40.883089 10976] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/b/edfd95913c91412fbaca1e9c43ea3f-267242.manifest
+[2022-03-14T22:10:40.898048 14260] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:40.898048 14260] Config: (default) base_dir = 
+[2022-03-14T22:10:40.898048 14260] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:40.898048 14260] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:40.898048 14260] Config: (default) compiler = 
+[2022-03-14T22:10:40.898048 14260] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:40.898048 14260] Config: (default) compression = false
+[2022-03-14T22:10:40.898048 14260] Config: (default) compression_level = 6
+[2022-03-14T22:10:40.898048 14260] Config: (default) cpp_extension = 
+[2022-03-14T22:10:40.898048 14260] Config: (default) debug = false
+[2022-03-14T22:10:40.898048 14260] Config: (default) depend_mode = false
+[2022-03-14T22:10:40.898048 14260] Config: (default) direct_mode = true
+[2022-03-14T22:10:40.898048 14260] Config: (default) disable = false
+[2022-03-14T22:10:40.898048 14260] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:40.898048 14260] Config: (default) hard_link = false
+[2022-03-14T22:10:40.898048 14260] Config: (default) hash_dir = true
+[2022-03-14T22:10:40.898048 14260] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:40.898048 14260] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:40.898048 14260] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:40.898048 14260] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:40.898048 14260] Config: (default) max_files = 0
+[2022-03-14T22:10:40.898048 14260] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:40.898048 14260] Config: (default) path = 
+[2022-03-14T22:10:40.898048 14260] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:40.898048 14260] Config: (default) prefix_command = 
+[2022-03-14T22:10:40.898048 14260] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:40.898048 14260] Config: (default) read_only = false
+[2022-03-14T22:10:40.898048 14260] Config: (default) read_only_direct = false
+[2022-03-14T22:10:40.898048 14260] Config: (default) recache = false
+[2022-03-14T22:10:40.898048 14260] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:40.898048 14260] Config: (default) sloppiness = 
+[2022-03-14T22:10:40.898048 14260] Config: (default) stats = true
+[2022-03-14T22:10:40.898048 14260] Config: (default) temporary_dir = 
+[2022-03-14T22:10:40.898048 14260] Config: (default) umask = 
+[2022-03-14T22:10:40.899045 14260] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.lxml.html._setmixin.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.lxml.html._setmixin.c
+[2022-03-14T22:10:40.899045 14260] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:40.899045 14260] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:40.900042 14260] Source file: module.lxml.html._setmixin.c
+[2022-03-14T22:10:40.900042 14260] Object file: module.lxml.html._setmixin.o
+[2022-03-14T22:10:40.900042 14260] Trying direct lookup
+[2022-03-14T22:10:40.901040 14260] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/3/c5c30335e36ded8cf8b17d5c094e0f-149866.manifest
+[2022-03-14T22:10:41.026704 21376] Got object file hash from manifest
+[2022-03-14T22:10:41.029696 21376] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/a/55b57b2db45c0df5aceb0bb4d82127-722243.o to module.lxml.html._diffcommand.o (uncompressed)
+[2022-03-14T22:10:41.030693 21376] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/a/55b57b2db45c0df5aceb0bb4d82127-722243.o -> module.lxml.html._diffcommand.o
+[2022-03-14T22:10:41.031690 21376] Succeeded getting cached result
+[2022-03-14T22:10:41.031690 21376] Result: cache hit (direct)
+[2022-03-14T22:10:41.032688 21376] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2022-03-14T22:10:41.034683 21376] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2022-03-14T22:10:41.049643 15780] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:41.049643 15780] Config: (default) base_dir = 
+[2022-03-14T22:10:41.049643 15780] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:41.049643 15780] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:41.049643 15780] Config: (default) compiler = 
+[2022-03-14T22:10:41.049643 15780] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:41.049643 15780] Config: (default) compression = false
+[2022-03-14T22:10:41.049643 15780] Config: (default) compression_level = 6
+[2022-03-14T22:10:41.049643 15780] Config: (default) cpp_extension = 
+[2022-03-14T22:10:41.049643 15780] Config: (default) debug = false
+[2022-03-14T22:10:41.049643 15780] Config: (default) depend_mode = false
+[2022-03-14T22:10:41.049643 15780] Config: (default) direct_mode = true
+[2022-03-14T22:10:41.049643 15780] Config: (default) disable = false
+[2022-03-14T22:10:41.049643 15780] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:41.049643 15780] Config: (default) hard_link = false
+[2022-03-14T22:10:41.049643 15780] Config: (default) hash_dir = true
+[2022-03-14T22:10:41.049643 15780] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:41.049643 15780] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:41.049643 15780] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:41.049643 15780] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:41.049643 15780] Config: (default) max_files = 0
+[2022-03-14T22:10:41.049643 15780] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:41.049643 15780] Config: (default) path = 
+[2022-03-14T22:10:41.049643 15780] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:41.049643 15780] Config: (default) prefix_command = 
+[2022-03-14T22:10:41.049643 15780] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:41.049643 15780] Config: (default) read_only = false
+[2022-03-14T22:10:41.049643 15780] Config: (default) read_only_direct = false
+[2022-03-14T22:10:41.049643 15780] Config: (default) recache = false
+[2022-03-14T22:10:41.049643 15780] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:41.049643 15780] Config: (default) sloppiness = 
+[2022-03-14T22:10:41.049643 15780] Config: (default) stats = true
+[2022-03-14T22:10:41.049643 15780] Config: (default) temporary_dir = 
+[2022-03-14T22:10:41.049643 15780] Config: (default) umask = 
+[2022-03-14T22:10:41.050640 15780] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.lxml.html.builder.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.lxml.html.builder.c
+[2022-03-14T22:10:41.050640 15780] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:41.050640 15780] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:41.050640 15780] Source file: module.lxml.html.builder.c
+[2022-03-14T22:10:41.050640 15780] Object file: module.lxml.html.builder.o
+[2022-03-14T22:10:41.051638 15780] Trying direct lookup
+[2022-03-14T22:10:41.052635 15780] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/5/68b2e5cb9c0803f09fe8e09df53a24-131294.manifest
+[2022-03-14T22:10:41.100508 14260] Got object file hash from manifest
+[2022-03-14T22:10:41.102502 14260] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/2/e35569d3029378c49c56c4afd7f335-682514.o to module.lxml.html._setmixin.o (uncompressed)
+[2022-03-14T22:10:41.103500 14260] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/2/e35569d3029378c49c56c4afd7f335-682514.o -> module.lxml.html._setmixin.o
+[2022-03-14T22:10:41.104496 14260] Succeeded getting cached result
+[2022-03-14T22:10:41.104496 14260] Result: cache hit (direct)
+[2022-03-14T22:10:41.105494 14260] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2022-03-14T22:10:41.107490 14260] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2022-03-14T22:10:41.169322 10976] Got object file hash from manifest
+[2022-03-14T22:10:41.171317 10976] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/c/a1e739672dee589896a42668042423-806255.o to module.lxml.html._html5builder.o (uncompressed)
+[2022-03-14T22:10:41.172315 10976] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/c/a1e739672dee589896a42668042423-806255.o -> module.lxml.html._html5builder.o
+[2022-03-14T22:10:41.173312 10976] Succeeded getting cached result
+[2022-03-14T22:10:41.173312 10976] Result: cache hit (direct)
+[2022-03-14T22:10:41.174310 10976] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2022-03-14T22:10:41.182304 10976] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2022-03-14T22:10:41.220187 4468 ] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) base_dir = 
+[2022-03-14T22:10:41.220187 4468 ] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) compiler = 
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) compression = false
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) compression_level = 6
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) cpp_extension = 
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) debug = false
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) depend_mode = false
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) direct_mode = true
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) disable = false
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) hard_link = false
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) hash_dir = true
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:41.220187 4468 ] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) max_files = 0
+[2022-03-14T22:10:41.220187 4468 ] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) path = 
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) prefix_command = 
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) read_only = false
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) read_only_direct = false
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) recache = false
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) sloppiness = 
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) stats = true
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) temporary_dir = 
+[2022-03-14T22:10:41.220187 4468 ] Config: (default) umask = 
+[2022-03-14T22:10:41.221195 4468 ] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.lxml.html.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.lxml.html.c
+[2022-03-14T22:10:41.221195 4468 ] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:41.221195 4468 ] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:41.222182 4468 ] Source file: module.lxml.html.c
+[2022-03-14T22:10:41.222182 4468 ] Object file: module.lxml.html.o
+[2022-03-14T22:10:41.222182 4468 ] Trying direct lookup
+[2022-03-14T22:10:41.237141 4468 ] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/0/1b3479d6334873da1c372a401a6495-3207248.manifest
+[2022-03-14T22:10:41.278032 15780] Got object file hash from manifest
+[2022-03-14T22:10:41.289003 15780] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/e/b6e273a5bb42cfe25f99c3dd0b75ef-676036.o to module.lxml.html.builder.o (uncompressed)
+[2022-03-14T22:10:41.290997 15780] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/e/b6e273a5bb42cfe25f99c3dd0b75ef-676036.o -> module.lxml.html.builder.o
+[2022-03-14T22:10:41.299974 15780] Succeeded getting cached result
+[2022-03-14T22:10:41.299974 15780] Result: cache hit (direct)
+[2022-03-14T22:10:41.300971 15780] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2022-03-14T22:10:41.303963 15780] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2022-03-14T22:10:41.314933 3908 ] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) base_dir = 
+[2022-03-14T22:10:41.314933 3908 ] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) compiler = 
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) compression = false
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) compression_level = 6
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) cpp_extension = 
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) debug = false
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) depend_mode = false
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) direct_mode = true
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) disable = false
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) hard_link = false
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) hash_dir = true
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:41.314933 3908 ] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) max_files = 0
+[2022-03-14T22:10:41.314933 3908 ] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) path = 
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) prefix_command = 
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) read_only = false
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) read_only_direct = false
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) recache = false
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) sloppiness = 
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) stats = true
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) temporary_dir = 
+[2022-03-14T22:10:41.314933 3908 ] Config: (default) umask = 
+[2022-03-14T22:10:41.314933 3908 ] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.lxml.html.clean.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.lxml.html.clean.c
+[2022-03-14T22:10:41.315931 3908 ] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:41.315931 3908 ] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:41.315931 3908 ] Source file: module.lxml.html.clean.c
+[2022-03-14T22:10:41.315931 3908 ] Object file: module.lxml.html.clean.o
+[2022-03-14T22:10:41.315931 3908 ] Trying direct lookup
+[2022-03-14T22:10:41.318923 20260] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:41.318923 20260] Config: (default) base_dir = 
+[2022-03-14T22:10:41.318923 20260] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:41.318923 20260] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:41.318923 20260] Config: (default) compiler = 
+[2022-03-14T22:10:41.318923 20260] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:41.318923 20260] Config: (default) compression = false
+[2022-03-14T22:10:41.318923 20260] Config: (default) compression_level = 6
+[2022-03-14T22:10:41.318923 20260] Config: (default) cpp_extension = 
+[2022-03-14T22:10:41.318923 20260] Config: (default) debug = false
+[2022-03-14T22:10:41.318923 20260] Config: (default) depend_mode = false
+[2022-03-14T22:10:41.318923 20260] Config: (default) direct_mode = true
+[2022-03-14T22:10:41.318923 20260] Config: (default) disable = false
+[2022-03-14T22:10:41.318923 20260] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:41.318923 20260] Config: (default) hard_link = false
+[2022-03-14T22:10:41.318923 20260] Config: (default) hash_dir = true
+[2022-03-14T22:10:41.318923 20260] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:41.318923 20260] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:41.318923 20260] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:41.318923 20260] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:41.318923 20260] Config: (default) max_files = 0
+[2022-03-14T22:10:41.318923 20260] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:41.318923 20260] Config: (default) path = 
+[2022-03-14T22:10:41.318923 20260] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:41.318923 20260] Config: (default) prefix_command = 
+[2022-03-14T22:10:41.318923 20260] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:41.318923 20260] Config: (default) read_only = false
+[2022-03-14T22:10:41.318923 20260] Config: (default) read_only_direct = false
+[2022-03-14T22:10:41.318923 20260] Config: (default) recache = false
+[2022-03-14T22:10:41.318923 20260] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:41.318923 20260] Config: (default) sloppiness = 
+[2022-03-14T22:10:41.318923 20260] Config: (default) stats = true
+[2022-03-14T22:10:41.318923 20260] Config: (default) temporary_dir = 
+[2022-03-14T22:10:41.318923 20260] Config: (default) umask = 
+[2022-03-14T22:10:41.319920 20260] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.lxml.html.defs.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.lxml.html.defs.c
+[2022-03-14T22:10:41.319920 20260] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:41.319920 20260] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:41.319920 20260] Source file: module.lxml.html.defs.c
+[2022-03-14T22:10:41.319920 20260] Object file: module.lxml.html.defs.o
+[2022-03-14T22:10:41.319920 20260] Trying direct lookup
+[2022-03-14T22:10:41.320917 3908 ] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/a/5ed5c1530025e955fb52940ba7c78c-886852.manifest
+[2022-03-14T22:10:41.320917 20260] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/5/fd67ac2bb90c56365a6095ed8820a1-31441.manifest
+[2022-03-14T22:10:41.516395 4468 ] Got object file hash from manifest
+[2022-03-14T22:10:41.519386 4468 ] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/f/130940230de61b29ef9d768c69d40a-3654314.o to module.lxml.html.o (uncompressed)
+[2022-03-14T22:10:41.524373 4468 ] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/f/130940230de61b29ef9d768c69d40a-3654314.o -> module.lxml.html.o
+[2022-03-14T22:10:41.525380 4468 ] Succeeded getting cached result
+[2022-03-14T22:10:41.525380 4468 ] Result: cache hit (direct)
+[2022-03-14T22:10:41.526368 4468 ] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2022-03-14T22:10:41.528363 4468 ] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2022-03-14T22:10:41.542326 3908 ] Got object file hash from manifest
+[2022-03-14T22:10:41.544320 20260] Got object file hash from manifest
+[2022-03-14T22:10:41.547312 20260] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/d/2c44a3c1107f42e1cb46147ad955a5-574185.o to module.lxml.html.defs.o (uncompressed)
+[2022-03-14T22:10:41.548309 17732] === CCACHE 3.7.12 STARTED =========================================
+\ccache/0/d/2c44a3c1107f42e1cb46147ad955a5-574185.o -> module.lxml.html.defs.o
+[2022-03-14T22:10:41.548309 17732] Config: (default) base_dir = 
+[2022-03-14T22:10:41.548309 17732] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:41.548309 17732] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:41.548309 17732] Config: (default) compiler = 
+[2022-03-14T22:10:41.548309 17732] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:41.548309 17732] Config: (default) compression = false
+[2022-03-14T22:10:41.548309 17732] Config: (default) compression_level = 6
+[2022-03-14T22:10:41.548309 17732] Config: (default) cpp_extension = 
+[2022-03-14T22:10:41.548309 17732] Config: (default) debug = false
+[2022-03-14T22:10:41.548309 17732] Config: (default) depend_mode = false
+[2022-03-14T22:10:41.548309 17732] Config: (default) direct_mode = true
+[2022-03-14T22:10:41.548309 17732] Config: (default) disable = false
+[2022-03-14T22:10:41.548309 17732] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:41.548309 17732] Config: (default) hard_link = false
+[2022-03-14T22:10:41.548309 17732] Config: (default) hash_dir = true
+[2022-03-14T22:10:41.548309 17732] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:41.548309 17732] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:41.548309 17732] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:41.548309 17732] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:41.548309 17732] Config: (default) max_files = 0
+[2022-03-14T22:10:41.548309 17732] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:41.548309 17732] Config: (default) path = 
+[2022-03-14T22:10:41.548309 17732] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:41.548309 17732] Config: (default) prefix_command = 
+[2022-03-14T22:10:41.548309 17732] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:41.548309 17732] Config: (default) read_only = false
+[2022-03-14T22:10:41.548309 17732] Config: (default) read_only_direct = false
+[2022-03-14T22:10:41.548309 17732] Config: (default) recache = false
+[2022-03-14T22:10:41.548309 17732] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:41.548309 17732] Config: (default) sloppiness = 
+[2022-03-14T22:10:41.548309 17732] Config: (default) stats = true
+[2022-03-14T22:10:41.548309 17732] Config: (default) temporary_dir = 
+[2022-03-14T22:10:41.548309 17732] Config: (default) umask = 
+[2022-03-14T22:10:41.549307 17732] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.lxml.html.diff.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.lxml.html.diff.c
+[2022-03-14T22:10:41.549307 17732] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:41.549307 20260] Succeeded getting cached result
+[2022-03-14T22:10:41.549307 20260] Result: cache hit (direct)
+件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:41.550304 17732] Source file: module.lxml.html.diff.c
+[2022-03-14T22:10:41.550304 17732] Object file: module.lxml.html.diff.o
+[2022-03-14T22:10:41.550304 20260] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2022-03-14T22:10:41.550304 17732] Trying direct lookup
+[2022-03-14T22:10:41.555290 3908 ] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/b/78bf56b2836b4b815546e146130e99-1454601.o to module.lxml.html.clean.o (uncompressed)
+[2022-03-14T22:10:41.557285 17732] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/8/321a327b7bd1c7e4ea30b9261d4608-1410214.manifest
+[2022-03-14T22:10:41.557285 3908 ] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/b/78bf56b2836b4b815546e146130e99-1454601.o -> module.lxml.html.clean.o
+[2022-03-14T22:10:41.559280 3908 ] Succeeded getting cached result
+[2022-03-14T22:10:41.559280 3908 ] Result: cache hit (direct)
+[2022-03-14T22:10:41.560277 3908 ] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2022-03-14T22:10:41.563270 3908 ] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2022-03-14T22:10:41.602165 20260] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2022-03-14T22:10:41.640064 10760] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:41.640064 10760] Config: (default) base_dir = 
+[2022-03-14T22:10:41.640064 10760] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:41.640064 10760] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:41.640064 10760] Config: (default) compiler = 
+[2022-03-14T22:10:41.640064 10760] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:41.640064 10760] Config: (default) compression = false
+[2022-03-14T22:10:41.640064 10760] Config: (default) compression_level = 6
+[2022-03-14T22:10:41.640064 10760] Config: (default) cpp_extension = 
+[2022-03-14T22:10:41.640064 10760] Config: (default) debug = false
+[2022-03-14T22:10:41.640064 10760] Config: (default) depend_mode = false
+[2022-03-14T22:10:41.640064 10760] Config: (default) direct_mode = true
+[2022-03-14T22:10:41.640064 10760] Config: (default) disable = false
+[2022-03-14T22:10:41.640064 10760] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:41.640064 10760] Config: (default) hard_link = false
+[2022-03-14T22:10:41.640064 10760] Config: (default) hash_dir = true
+[2022-03-14T22:10:41.640064 10760] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:41.640064 10760] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:41.640064 10760] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:41.640064 10760] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:41.640064 10760] Config: (default) max_files = 0
+[2022-03-14T22:10:41.640064 10760] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:41.640064 10760] Config: (default) path = 
+[2022-03-14T22:10:41.640064 10760] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:41.640064 10760] Config: (default) prefix_command = 
+[2022-03-14T22:10:41.640064 10760] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:41.640064 10760] Config: (default) read_only = false
+[2022-03-14T22:10:41.640064 10760] Config: (default) read_only_direct = false
+[2022-03-14T22:10:41.640064 10760] Config: (default) recache = false
+[2022-03-14T22:10:41.640064 10760] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:41.640064 10760] Config: (default) sloppiness = 
+[2022-03-14T22:10:41.640064 10760] Config: (default) stats = true
+[2022-03-14T22:10:41.640064 10760] Config: (default) temporary_dir = 
+[2022-03-14T22:10:41.640064 10760] Config: (default) umask = 
+[2022-03-14T22:10:41.641063 10760] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.lxml.html.formfill.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.lxml.html.formfill.c
+[2022-03-14T22:10:41.641063 10760] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:41.641063 10760] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:41.642059 10760] Source file: module.lxml.html.formfill.c
+[2022-03-14T22:10:41.642059 10760] Object file: module.lxml.html.formfill.o
+[2022-03-14T22:10:41.643057 10760] Trying direct lookup
+[2022-03-14T22:10:41.646049 10760] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/e/205bea45cc30346a0179152c477bf7-588400.manifest
+[2022-03-14T22:10:41.730821 15372] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:41.730821 15372] Config: (default) base_dir = 
+[2022-03-14T22:10:41.730821 15372] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:41.730821 15372] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:41.730821 15372] Config: (default) compiler = 
+[2022-03-14T22:10:41.730821 15372] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:41.730821 15372] Config: (default) compression = false
+[2022-03-14T22:10:41.730821 15372] Config: (default) compression_level = 6
+[2022-03-14T22:10:41.730821 15372] Config: (default) cpp_extension = 
+[2022-03-14T22:10:41.730821 15372] Config: (default) debug = false
+[2022-03-14T22:10:41.730821 15372] Config: (default) depend_mode = false
+[2022-03-14T22:10:41.730821 15372] Config: (default) direct_mode = true
+[2022-03-14T22:10:41.730821 15372] Config: (default) disable = false
+[2022-03-14T22:10:41.730821 15372] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:41.730821 15372] Config: (default) hard_link = false
+[2022-03-14T22:10:41.730821 15372] Config: (default) hash_dir = true
+[2022-03-14T22:10:41.730821 15372] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:41.730821 15372] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:41.730821 15372] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:41.730821 15372] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:41.730821 15372] Config: (default) max_files = 0
+[2022-03-14T22:10:41.730821 15372] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:41.730821 15372] Config: (default) path = 
+[2022-03-14T22:10:41.730821 15372] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:41.730821 15372] Config: (default) prefix_command = 
+[2022-03-14T22:10:41.730821 15372] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:41.730821 15372] Config: (default) read_only = false
+[2022-03-14T22:10:41.730821 15372] Config: (default) read_only_direct = false
+[2022-03-14T22:10:41.730821 15372] Config: (default) recache = false
+[2022-03-14T22:10:41.730821 15372] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:41.730821 15372] Config: (default) sloppiness = 
+[2022-03-14T22:10:41.730821 15372] Config: (default) stats = true
+[2022-03-14T22:10:41.730821 15372] Config: (default) temporary_dir = 
+[2022-03-14T22:10:41.730821 15372] Config: (default) umask = 
+[2022-03-14T22:10:41.730821 15372] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.lxml.html.html5parser.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.lxml.html.html5parser.c
+[2022-03-14T22:10:41.730821 15372] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:41.731819 15372] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:41.731819 15372] Source file: module.lxml.html.html5parser.c
+[2022-03-14T22:10:41.731819 15372] Object file: module.lxml.html.html5parser.o
+[2022-03-14T22:10:41.731819 15372] Trying direct lookup
+[2022-03-14T22:10:41.734811 15372] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/0/6c5553e403becb2b438d2781050788-314088.manifest
+[2022-03-14T22:10:41.750768 17272] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:41.750768 17272] Config: (default) base_dir = 
+[2022-03-14T22:10:41.750768 17272] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:41.750768 17272] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:41.750768 17272] Config: (default) compiler = 
+[2022-03-14T22:10:41.750768 17272] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:41.750768 17272] Config: (default) compression = false
+[2022-03-14T22:10:41.750768 17272] Config: (default) compression_level = 6
+[2022-03-14T22:10:41.750768 17272] Config: (default) cpp_extension = 
+[2022-03-14T22:10:41.750768 17272] Config: (default) debug = false
+[2022-03-14T22:10:41.750768 17272] Config: (default) depend_mode = false
+[2022-03-14T22:10:41.750768 17272] Config: (default) direct_mode = true
+[2022-03-14T22:10:41.750768 17272] Config: (default) disable = false
+[2022-03-14T22:10:41.750768 17272] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:41.750768 17272] Config: (default) hard_link = false
+[2022-03-14T22:10:41.750768 17272] Config: (default) hash_dir = true
+[2022-03-14T22:10:41.750768 17272] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:41.750768 17272] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:41.750768 17272] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:41.750768 17272] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:41.750768 17272] Config: (default) max_files = 0
+[2022-03-14T22:10:41.750768 17272] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:41.750768 17272] Config: (default) path = 
+[2022-03-14T22:10:41.750768 17272] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:41.750768 17272] Config: (default) prefix_command = 
+[2022-03-14T22:10:41.750768 17272] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:41.750768 17272] Config: (default) read_only = false
+[2022-03-14T22:10:41.750768 17272] Config: (default) read_only_direct = false
+[2022-03-14T22:10:41.750768 17272] Config: (default) recache = false
+[2022-03-14T22:10:41.750768 17272] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:41.750768 17272] Config: (default) sloppiness = 
+[2022-03-14T22:10:41.750768 17272] Config: (default) stats = true
+[2022-03-14T22:10:41.750768 17272] Config: (default) temporary_dir = 
+[2022-03-14T22:10:41.750768 17272] Config: (default) umask = 
+[2022-03-14T22:10:41.751765 17272] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.lxml.html.soupparser.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.lxml.html.soupparser.c
+[2022-03-14T22:10:41.751765 17272] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:41.751765 17272] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:41.751765 17272] Source file: module.lxml.html.soupparser.c
+[2022-03-14T22:10:41.751765 17272] Object file: module.lxml.html.soupparser.o
+[2022-03-14T22:10:41.751765 17272] Trying direct lookup
+[2022-03-14T22:10:41.754758 17272] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/3/3ad1d9dcb2e4dfc948e3867ff271eb-496178.manifest
+[2022-03-14T22:10:41.777696 17732] Got object file hash from manifest
+[2022-03-14T22:10:41.779691 17732] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/8/54c4d04b1d58461fb58cb01f09f186-1947434.o to module.lxml.html.diff.o (uncompressed)
+[2022-03-14T22:10:41.782683 17732] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/8/54c4d04b1d58461fb58cb01f09f186-1947434.o -> module.lxml.html.diff.o
+[2022-03-14T22:10:41.784677 17732] Succeeded getting cached result
+[2022-03-14T22:10:41.784677 17732] Result: cache hit (direct)
+[2022-03-14T22:10:41.785675 17732] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2022-03-14T22:10:41.787670 17732] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2022-03-14T22:10:41.879424 20960] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:41.879424 20960] Config: (default) base_dir = 
+[2022-03-14T22:10:41.879424 20960] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:41.879424 20960] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:41.879424 20960] Config: (default) compiler = 
+[2022-03-14T22:10:41.879424 20960] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:41.879424 20960] Config: (default) compression = false
+[2022-03-14T22:10:41.879424 20960] Config: (default) compression_level = 6
+[2022-03-14T22:10:41.879424 20960] Config: (default) cpp_extension = 
+[2022-03-14T22:10:41.879424 20960] Config: (default) debug = false
+[2022-03-14T22:10:41.879424 20960] Config: (default) depend_mode = false
+[2022-03-14T22:10:41.879424 20960] Config: (default) direct_mode = true
+[2022-03-14T22:10:41.879424 20960] Config: (default) disable = false
+[2022-03-14T22:10:41.879424 20960] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:41.879424 20960] Config: (default) hard_link = false
+[2022-03-14T22:10:41.879424 20960] Config: (default) hash_dir = true
+[2022-03-14T22:10:41.879424 20960] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:41.879424 20960] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:41.879424 20960] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:41.879424 20960] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:41.879424 20960] Config: (default) max_files = 0
+[2022-03-14T22:10:41.879424 20960] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:41.879424 20960] Config: (default) path = 
+[2022-03-14T22:10:41.879424 20960] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:41.879424 20960] Config: (default) prefix_command = 
+[2022-03-14T22:10:41.879424 20960] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:41.879424 20960] Config: (default) read_only = false
+[2022-03-14T22:10:41.879424 20960] Config: (default) read_only_direct = false
+[2022-03-14T22:10:41.879424 20960] Config: (default) recache = false
+[2022-03-14T22:10:41.879424 20960] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:41.879424 20960] Config: (default) sloppiness = 
+[2022-03-14T22:10:41.879424 20960] Config: (default) stats = true
+[2022-03-14T22:10:41.879424 20960] Config: (default) temporary_dir = 
+[2022-03-14T22:10:41.879424 20960] Config: (default) umask = 
+[2022-03-14T22:10:41.880421 20960] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.lxml.html.usedoctest.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.lxml.html.usedoctest.c
+[2022-03-14T22:10:41.880421 20960] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:41.880421 20960] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:41.881419 20960] Source file: module.lxml.html.usedoctest.c
+[2022-03-14T22:10:41.881419 20960] Object file: module.lxml.html.usedoctest.o
+[2022-03-14T22:10:41.881419 20960] Trying direct lookup
+[2022-03-14T22:10:41.881419 20960] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/7/140a39cc9fa1e62d5ec7213fe20968-23385.manifest
+[2022-03-14T22:10:41.967189 10760] Got object file hash from manifest
+[2022-03-14T22:10:41.970181 10760] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/5/425a65e9e44c9e94348f1220a1c665-1140228.o to module.lxml.html.formfill.o (uncompressed)
+[2022-03-14T22:10:41.971179 10760] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/5/425a65e9e44c9e94348f1220a1c665-1140228.o -> module.lxml.html.formfill.o
+[2022-03-14T22:10:41.972175 10760] Succeeded getting cached result
+[2022-03-14T22:10:41.972175 10760] Result: cache hit (direct)
+[2022-03-14T22:10:41.973174 10760] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2022-03-14T22:10:41.975168 10760] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2022-03-14T22:10:41.983147 17272] Got object file hash from manifest
+[2022-03-14T22:10:41.984144 15372] Got object file hash from manifest
+[2022-03-14T22:10:41.985141 17272] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/5/2586c9aba38ea9434f285ed27610dc-1031728.o to module.lxml.html.soupparser.o (uncompressed)
+[2022-03-14T22:10:41.987138 17272] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/5/2586c9aba38ea9434f285ed27610dc-1031728.o -> module.lxml.html.soupparser.o
+[2022-03-14T22:10:41.987138 15372] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/6/20df63a39c1557bf9f47777446b6a1-856092.o to module.lxml.html.html5parser.o (uncompressed)
+[2022-03-14T22:10:41.988133 17272] Succeeded getting cached result
+[2022-03-14T22:10:41.988133 17272] Result: cache hit (direct)
+[2022-03-14T22:10:41.989131 17272] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2022-03-14T22:10:41.991126 17272] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2022-03-14T22:10:41.992124 15372] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/6/20df63a39c1557bf9f47777446b6a1-856092.o -> module.lxml.html.html5parser.o
+[2022-03-14T22:10:41.993120 15372] Succeeded getting cached result
+[2022-03-14T22:10:41.993120 15372] Result: cache hit (direct)
+[2022-03-14T22:10:41.994118 15372] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2022-03-14T22:10:41.996113 15372] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2022-03-14T22:10:42.038000 17668] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:42.038000 17668] Config: (default) base_dir = 
+[2022-03-14T22:10:42.038000 17668] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:42.038000 17668] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:42.038000 17668] Config: (default) compiler = 
+[2022-03-14T22:10:42.038000 17668] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:42.038000 17668] Config: (default) compression = false
+[2022-03-14T22:10:42.038000 17668] Config: (default) compression_level = 6
+[2022-03-14T22:10:42.038000 17668] Config: (default) cpp_extension = 
+[2022-03-14T22:10:42.038000 17668] Config: (default) debug = false
+[2022-03-14T22:10:42.038000 17668] Config: (default) depend_mode = false
+[2022-03-14T22:10:42.038000 17668] Config: (default) direct_mode = true
+[2022-03-14T22:10:42.038000 17668] Config: (default) disable = false
+[2022-03-14T22:10:42.038000 17668] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:42.038000 17668] Config: (default) hard_link = false
+[2022-03-14T22:10:42.038000 17668] Config: (default) hash_dir = true
+[2022-03-14T22:10:42.038000 17668] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:42.038000 17668] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:42.038000 17668] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:42.038000 17668] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:42.038000 17668] Config: (default) max_files = 0
+[2022-03-14T22:10:42.038000 17668] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:42.038000 17668] Config: (default) path = 
+[2022-03-14T22:10:42.038000 17668] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:42.038000 17668] Config: (default) prefix_command = 
+[2022-03-14T22:10:42.038000 17668] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:42.038000 17668] Config: (default) read_only = false
+[2022-03-14T22:10:42.038000 17668] Config: (default) read_only_direct = false
+[2022-03-14T22:10:42.038000 17668] Config: (default) recache = false
+[2022-03-14T22:10:42.038000 17668] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:42.038000 17668] Config: (default) sloppiness = 
+[2022-03-14T22:10:42.038000 17668] Config: (default) stats = true
+[2022-03-14T22:10:42.038000 17668] Config: (default) temporary_dir = 
+[2022-03-14T22:10:42.038000 17668] Config: (default) umask = 
+[2022-03-14T22:10:42.038998 17668] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.lxml.includes.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.lxml.includes.c
+[2022-03-14T22:10:42.038998 17668] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:42.038998 17668] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:42.039995 17668] Source file: module.lxml.includes.c
+[2022-03-14T22:10:42.039995 17668] Object file: module.lxml.includes.o
+[2022-03-14T22:10:42.039995 17668] Trying direct lookup
+[2022-03-14T22:10:42.039995 17668] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/1/c82f8e462428eeb4aaf4f53ac104d5-29561.manifest
+[2022-03-14T22:10:42.088864 20960] Got object file hash from manifest
+[2022-03-14T22:10:42.091856 20960] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/e/44a0b041e249786f95d4629a08b006-566227.o to module.lxml.html.usedoctest.o (uncompressed)
+[2022-03-14T22:10:42.092853 20960] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/e/44a0b041e249786f95d4629a08b006-566227.o -> module.lxml.html.usedoctest.o
+[2022-03-14T22:10:42.093851 20960] Succeeded getting cached result
+[2022-03-14T22:10:42.093851 20960] Result: cache hit (direct)
+[2022-03-14T22:10:42.094849 20960] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2022-03-14T22:10:42.096843 20960] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2022-03-14T22:10:42.104821 16484] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:42.104821 16484] Config: (default) base_dir = 
+[2022-03-14T22:10:42.104821 16484] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:42.104821 16484] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:42.104821 16484] Config: (default) compiler = 
+[2022-03-14T22:10:42.104821 16484] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:42.104821 16484] Config: (default) compression = false
+[2022-03-14T22:10:42.104821 16484] Config: (default) compression_level = 6
+[2022-03-14T22:10:42.104821 16484] Config: (default) cpp_extension = 
+[2022-03-14T22:10:42.104821 16484] Config: (default) debug = false
+[2022-03-14T22:10:42.104821 16484] Config: (default) depend_mode = false
+[2022-03-14T22:10:42.104821 16484] Config: (default) direct_mode = true
+[2022-03-14T22:10:42.104821 16484] Config: (default) disable = false
+[2022-03-14T22:10:42.104821 16484] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:42.104821 16484] Config: (default) hard_link = false
+[2022-03-14T22:10:42.104821 16484] Config: (default) hash_dir = true
+[2022-03-14T22:10:42.104821 16484] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:42.104821 16484] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:42.104821 16484] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:42.104821 16484] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:42.104821 16484] Config: (default) max_files = 0
+[2022-03-14T22:10:42.104821 16484] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:42.104821 16484] Config: (default) path = 
+[2022-03-14T22:10:42.104821 16484] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:42.104821 16484] Config: (default) prefix_command = 
+[2022-03-14T22:10:42.104821 16484] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:42.104821 16484] Config: (default) read_only = false
+[2022-03-14T22:10:42.104821 16484] Config: (default) read_only_direct = false
+[2022-03-14T22:10:42.104821 16484] Config: (default) recache = false
+[2022-03-14T22:10:42.104821 16484] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:42.104821 16484] Config: (default) sloppiness = 
+[2022-03-14T22:10:42.104821 16484] Config: (default) stats = true
+[2022-03-14T22:10:42.104821 16484] Config: (default) temporary_dir = 
+[2022-03-14T22:10:42.104821 16484] Config: (default) umask = 
+[2022-03-14T22:10:42.104821 16484] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.lxml.pyclasslookup.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.lxml.pyclasslookup.c
+[2022-03-14T22:10:42.104821 16484] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:42.105819 16484] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:42.105819 16484] Source file: module.lxml.pyclasslookup.c
+[2022-03-14T22:10:42.105819 16484] Object file: module.lxml.pyclasslookup.o
+[2022-03-14T22:10:42.105819 16484] Trying direct lookup
+[2022-03-14T22:10:42.106816 16484] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/9/c0017e1e32e0ca7a5331f79b00c0cf-21803.manifest
+[2022-03-14T22:10:42.120778 20204] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:42.120778 20204] Config: (default) base_dir = 
+[2022-03-14T22:10:42.120778 20204] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:42.120778 20204] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:42.120778 20204] Config: (default) compiler = 
+[2022-03-14T22:10:42.120778 20204] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:42.120778 20204] Config: (default) compression = false
+[2022-03-14T22:10:42.120778 20204] Config: (default) compression_level = 6
+[2022-03-14T22:10:42.120778 20204] Config: (default) cpp_extension = 
+[2022-03-14T22:10:42.120778 20204] Config: (default) debug = false
+[2022-03-14T22:10:42.120778 20204] Config: (default) depend_mode = false
+[2022-03-14T22:10:42.120778 20204] Config: (default) direct_mode = true
+[2022-03-14T22:10:42.120778 20204] Config: (default) disable = false
+[2022-03-14T22:10:42.120778 20204] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:42.120778 20204] Config: (default) hard_link = false
+[2022-03-14T22:10:42.120778 20204] Config: (default) hash_dir = true
+[2022-03-14T22:10:42.120778 20204] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:42.120778 20204] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:42.120778 20204] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:42.120778 20204] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:42.120778 20204] Config: (default) max_files = 0
+[2022-03-14T22:10:42.120778 20204] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:42.120778 20204] Config: (default) path = 
+[2022-03-14T22:10:42.120778 20204] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:42.120778 20204] Config: (default) prefix_command = 
+[2022-03-14T22:10:42.120778 20204] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:42.120778 20204] Config: (default) read_only = false
+[2022-03-14T22:10:42.120778 20204] Config: (default) read_only_direct = false
+[2022-03-14T22:10:42.120778 20204] Config: (default) recache = false
+[2022-03-14T22:10:42.120778 20204] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:42.120778 20204] Config: (default) sloppiness = 
+[2022-03-14T22:10:42.120778 20204] Config: (default) stats = true
+[2022-03-14T22:10:42.120778 20204] Config: (default) temporary_dir = 
+[2022-03-14T22:10:42.120778 20204] Config: (default) umask = 
+[2022-03-14T22:10:42.121776 20204] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.lxml.isoschematron.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.lxml.isoschematron.c
+[2022-03-14T22:10:42.121776 20204] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:42.121776 20204] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:42.122773 20204] Source file: module.lxml.isoschematron.c
+[2022-03-14T22:10:42.122773 20204] Object file: module.lxml.isoschematron.o
+[2022-03-14T22:10:42.122773 20204] Trying direct lookup
+[2022-03-14T22:10:42.124767 20204] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/1/0e3b9732e1c1953622178c7ea98c33-342057.manifest
+[2022-03-14T22:10:42.265392 7344 ] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) base_dir = 
+[2022-03-14T22:10:42.265392 7344 ] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) compiler = 
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) compression = false
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) compression_level = 6
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) cpp_extension = 
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) debug = false
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) depend_mode = false
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) direct_mode = true
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) disable = false
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) hard_link = false
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) hash_dir = true
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:42.265392 7344 ] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) max_files = 0
+[2022-03-14T22:10:42.265392 7344 ] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) path = 
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) prefix_command = 
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) read_only = false
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) read_only_direct = false
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) recache = false
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) sloppiness = 
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) stats = true
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) temporary_dir = 
+[2022-03-14T22:10:42.265392 7344 ] Config: (default) umask = 
+[2022-03-14T22:10:42.267388 7344 ] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.lxml.sax.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.lxml.sax.c
+[2022-03-14T22:10:42.267388 7344 ] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:42.267388 7344 ] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:42.268385 7344 ] Source file: module.lxml.sax.c
+[2022-03-14T22:10:42.268385 7344 ] Object file: module.lxml.sax.o
+[2022-03-14T22:10:42.268385 7344 ] Trying direct lookup
+[2022-03-14T22:10:42.270379 7344 ] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/2/cbe554b118a0e59135606f9ff81ec0-581078.manifest
+[2022-03-14T22:10:42.297306 17668] Got object file hash from manifest
+[2022-03-14T22:10:42.301297 17668] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/0/290810c9578ca528c93c9ac64c5c46-572422.o to module.lxml.includes.o (uncompressed)
+[2022-03-14T22:10:42.336202 17668] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/0/290810c9578ca528c93c9ac64c5c46-572422.o -> module.lxml.includes.o
+[2022-03-14T22:10:42.337200 17668] Succeeded getting cached result
+[2022-03-14T22:10:42.337200 17668] Result: cache hit (direct)
+[2022-03-14T22:10:42.338197 17668] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/stats.lock
+[2022-03-14T22:10:42.341189 17668] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/stats.lock
+[2022-03-14T22:10:42.405020 20204] Got object file hash from manifest
+[2022-03-14T22:10:42.408012 20204] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/e/d6c1c3fea8b48abead6855d91d0a8c-894273.o to module.lxml.isoschematron.o (uncompressed)
+[2022-03-14T22:10:42.409019 20204] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/e/d6c1c3fea8b48abead6855d91d0a8c-894273.o -> module.lxml.isoschematron.o
+[2022-03-14T22:10:42.410005 20204] Succeeded getting cached result
+[2022-03-14T22:10:42.410005 20204] Result: cache hit (direct)
+[2022-03-14T22:10:42.411003 20204] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2022-03-14T22:10:42.412998 20204] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2022-03-14T22:10:42.437931 16484] Got object file hash from manifest
+[2022-03-14T22:10:42.452890 16484] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/d/3847b99bde0db5223e30593a0b247b-564486.o to module.lxml.pyclasslookup.o (uncompressed)
+[2022-03-14T22:10:42.453890 16484] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/d/3847b99bde0db5223e30593a0b247b-564486.o -> module.lxml.pyclasslookup.o
+[2022-03-14T22:10:42.456880 16484] Succeeded getting cached result
+[2022-03-14T22:10:42.456880 16484] Result: cache hit (direct)
+[2022-03-14T22:10:42.456880 16484] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2022-03-14T22:10:42.459872 16484] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2022-03-14T22:10:42.467851 20256] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:42.467851 20256] Config: (default) base_dir = 
+[2022-03-14T22:10:42.467851 20256] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:42.467851 20256] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:42.467851 20256] Config: (default) compiler = 
+[2022-03-14T22:10:42.467851 20256] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:42.467851 20256] Config: (default) compression = false
+[2022-03-14T22:10:42.467851 20256] Config: (default) compression_level = 6
+[2022-03-14T22:10:42.467851 20256] Config: (default) cpp_extension = 
+[2022-03-14T22:10:42.467851 20256] Config: (default) debug = false
+[2022-03-14T22:10:42.467851 20256] Config: (default) depend_mode = false
+[2022-03-14T22:10:42.467851 20256] Config: (default) direct_mode = true
+[2022-03-14T22:10:42.467851 20256] Config: (default) disable = false
+[2022-03-14T22:10:42.467851 20256] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:42.467851 20256] Config: (default) hard_link = false
+[2022-03-14T22:10:42.467851 20256] Config: (default) hash_dir = true
+[2022-03-14T22:10:42.467851 20256] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:42.467851 20256] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:42.467851 20256] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:42.467851 20256] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:42.467851 20256] Config: (default) max_files = 0
+[2022-03-14T22:10:42.467851 20256] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:42.467851 20256] Config: (default) path = 
+[2022-03-14T22:10:42.467851 20256] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:42.467851 20256] Config: (default) prefix_command = 
+[2022-03-14T22:10:42.467851 20256] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:42.467851 20256] Config: (default) read_only = false
+[2022-03-14T22:10:42.467851 20256] Config: (default) read_only_direct = false
+[2022-03-14T22:10:42.467851 20256] Config: (default) recache = false
+[2022-03-14T22:10:42.467851 20256] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:42.467851 20256] Config: (default) sloppiness = 
+[2022-03-14T22:10:42.467851 20256] Config: (default) stats = true
+[2022-03-14T22:10:42.467851 20256] Config: (default) temporary_dir = 
+[2022-03-14T22:10:42.467851 20256] Config: (default) umask = 
+[2022-03-14T22:10:42.468847 20256] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.lxml.usedoctest.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.lxml.usedoctest.c
+[2022-03-14T22:10:42.468847 20256] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:42.468847 20256] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:42.469845 20256] Source file: module.lxml.usedoctest.c
+[2022-03-14T22:10:42.469845 20256] Object file: module.lxml.usedoctest.o
+[2022-03-14T22:10:42.469845 20256] Trying direct lookup
+[2022-03-14T22:10:42.470842 20256] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/4/bca35b23d4766e05a038eaab2a8ea1-23135.manifest
+[2022-03-14T22:10:42.521707 11536] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:42.521707 11536] Config: (default) base_dir = 
+[2022-03-14T22:10:42.521707 11536] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:42.521707 11536] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:42.521707 11536] Config: (default) compiler = 
+[2022-03-14T22:10:42.521707 11536] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:42.521707 11536] Config: (default) compression = false
+[2022-03-14T22:10:42.521707 11536] Config: (default) compression_level = 6
+[2022-03-14T22:10:42.521707 11536] Config: (default) cpp_extension = 
+[2022-03-14T22:10:42.521707 11536] Config: (default) debug = false
+[2022-03-14T22:10:42.521707 11536] Config: (default) depend_mode = false
+[2022-03-14T22:10:42.521707 11536] Config: (default) direct_mode = true
+[2022-03-14T22:10:42.521707 11536] Config: (default) disable = false
+[2022-03-14T22:10:42.521707 11536] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:42.521707 11536] Config: (default) hard_link = false
+[2022-03-14T22:10:42.521707 11536] Config: (default) hash_dir = true
+[2022-03-14T22:10:42.521707 11536] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:42.521707 11536] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:42.521707 11536] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:42.521707 11536] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:42.521707 11536] Config: (default) max_files = 0
+[2022-03-14T22:10:42.521707 11536] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:42.521707 11536] Config: (default) path = 
+[2022-03-14T22:10:42.521707 11536] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:42.521707 11536] Config: (default) prefix_command = 
+[2022-03-14T22:10:42.521707 11536] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:42.521707 11536] Config: (default) read_only = false
+[2022-03-14T22:10:42.521707 11536] Config: (default) read_only_direct = false
+[2022-03-14T22:10:42.521707 11536] Config: (default) recache = false
+[2022-03-14T22:10:42.521707 11536] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:42.521707 11536] Config: (default) sloppiness = 
+[2022-03-14T22:10:42.521707 11536] Config: (default) stats = true
+[2022-03-14T22:10:42.521707 11536] Config: (default) temporary_dir = 
+[2022-03-14T22:10:42.521707 11536] Config: (default) umask = 
+[2022-03-14T22:10:42.522704 11536] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o module.tkinter-preLoad.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src module.tkinter-preLoad.c
+[2022-03-14T22:10:42.522704 11536] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:42.522704 11536] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:42.523701 11536] Source file: module.tkinter-preLoad.c
+[2022-03-14T22:10:42.523701 11536] Object file: module.tkinter-preLoad.o
+[2022-03-14T22:10:42.523701 11536] Trying direct lookup
+[2022-03-14T22:10:42.524698 11536] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/8/0f703157a99b807c0fdbdb253abe41-30809.manifest
+[2022-03-14T22:10:42.562597 7344 ] Got object file hash from manifest
+[2022-03-14T22:10:42.564592 7344 ] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/3/78b0b65f95d0a086de3fc22c1b3edb-1118744.o to module.lxml.sax.o (uncompressed)
+[2022-03-14T22:10:42.565589 7344 ] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/3/78b0b65f95d0a086de3fc22c1b3edb-1118744.o -> module.lxml.sax.o
+[2022-03-14T22:10:42.566586 7344 ] Succeeded getting cached result
+[2022-03-14T22:10:42.567584 7344 ] Result: cache hit (direct)
+[2022-03-14T22:10:42.582544 7344 ] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2022-03-14T22:10:42.586533 7344 ] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2022-03-14T22:10:42.602490 11896] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:42.602490 11896] Config: (default) base_dir = 
+[2022-03-14T22:10:42.602490 11896] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:42.602490 11896] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:42.602490 11896] Config: (default) compiler = 
+[2022-03-14T22:10:42.602490 11896] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:42.602490 11896] Config: (default) compression = false
+[2022-03-14T22:10:42.602490 11896] Config: (default) compression_level = 6
+[2022-03-14T22:10:42.602490 11896] Config: (default) cpp_extension = 
+[2022-03-14T22:10:42.602490 11896] Config: (default) debug = false
+[2022-03-14T22:10:42.602490 11896] Config: (default) depend_mode = false
+[2022-03-14T22:10:42.602490 11896] Config: (default) direct_mode = true
+[2022-03-14T22:10:42.602490 11896] Config: (default) disable = false
+[2022-03-14T22:10:42.602490 11896] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:42.602490 11896] Config: (default) hard_link = false
+[2022-03-14T22:10:42.602490 11896] Config: (default) hash_dir = true
+[2022-03-14T22:10:42.602490 11896] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:42.602490 11896] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:42.602490 11896] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:42.602490 11896] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:42.602490 11896] Config: (default) max_files = 0
+[2022-03-14T22:10:42.602490 11896] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:42.602490 11896] Config: (default) path = 
+[2022-03-14T22:10:42.602490 11896] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:42.602490 11896] Config: (default) prefix_command = 
+[2022-03-14T22:10:42.602490 11896] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:42.602490 11896] Config: (default) read_only = false
+[2022-03-14T22:10:42.602490 11896] Config: (default) read_only_direct = false
+[2022-03-14T22:10:42.602490 11896] Config: (default) recache = false
+[2022-03-14T22:10:42.602490 11896] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:42.602490 11896] Config: (default) sloppiness = 
+[2022-03-14T22:10:42.602490 11896] Config: (default) stats = true
+[2022-03-14T22:10:42.602490 11896] Config: (default) temporary_dir = 
+[2022-03-14T22:10:42.602490 11896] Config: (default) umask = 
+[2022-03-14T22:10:42.602490 11896] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o static_src\MainProgram.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src static_src\MainProgram.c
+[2022-03-14T22:10:42.603488 11896] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:42.603488 11896] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:42.603488 11896] Source file: static_src\MainProgram.c
+[2022-03-14T22:10:42.603488 11896] Object file: static_src\MainProgram.o
+[2022-03-14T22:10:42.603488 11896] Trying direct lookup
+[2022-03-14T22:10:42.604485 11896] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/a/c60486cba8f1e1c1861080351f777f-23387.manifest
+[2022-03-14T22:10:42.718181 19264] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:42.718181 19264] Config: (default) base_dir = 
+[2022-03-14T22:10:42.718181 19264] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:42.718181 19264] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:42.718181 19264] Config: (default) compiler = 
+[2022-03-14T22:10:42.718181 19264] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:42.718181 19264] Config: (default) compression = false
+[2022-03-14T22:10:42.718181 19264] Config: (default) compression_level = 6
+[2022-03-14T22:10:42.718181 19264] Config: (default) cpp_extension = 
+[2022-03-14T22:10:42.718181 19264] Config: (default) debug = false
+[2022-03-14T22:10:42.718181 19264] Config: (default) depend_mode = false
+[2022-03-14T22:10:42.718181 19264] Config: (default) direct_mode = true
+[2022-03-14T22:10:42.718181 19264] Config: (default) disable = false
+[2022-03-14T22:10:42.718181 19264] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:42.718181 19264] Config: (default) hard_link = false
+[2022-03-14T22:10:42.718181 19264] Config: (default) hash_dir = true
+[2022-03-14T22:10:42.718181 19264] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:42.718181 19264] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:42.718181 19264] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:42.718181 19264] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:42.718181 19264] Config: (default) max_files = 0
+[2022-03-14T22:10:42.718181 19264] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:42.718181 19264] Config: (default) path = 
+[2022-03-14T22:10:42.718181 19264] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:42.718181 19264] Config: (default) prefix_command = 
+[2022-03-14T22:10:42.718181 19264] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:42.718181 19264] Config: (default) read_only = false
+[2022-03-14T22:10:42.718181 19264] Config: (default) read_only_direct = false
+[2022-03-14T22:10:42.718181 19264] Config: (default) recache = false
+[2022-03-14T22:10:42.718181 19264] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:42.718181 19264] Config: (default) sloppiness = 
+[2022-03-14T22:10:42.718181 19264] Config: (default) stats = true
+[2022-03-14T22:10:42.718181 19264] Config: (default) temporary_dir = 
+[2022-03-14T22:10:42.718181 19264] Config: (default) umask = 
+[2022-03-14T22:10:42.719179 19264] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o static_src\CompiledCellType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledCellType.c
+[2022-03-14T22:10:42.719179 19264] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:42.719179 19264] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:42.720176 19264] Source file: static_src\CompiledCellType.c
+[2022-03-14T22:10:42.720176 19264] Object file: static_src\CompiledCellType.o
+[2022-03-14T22:10:42.720176 19264] Trying direct lookup
+[2022-03-14T22:10:42.720176 19264] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/b/4737e53dc113234ab7a7048a638023-7947.manifest
+[2022-03-14T22:10:42.730149 11536] Got object file hash from manifest
+[2022-03-14T22:10:42.732143 11536] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/a/b09e38e070c90b910e11625b7f2a7a-574248.o to module.tkinter-preLoad.o (uncompressed)
+[2022-03-14T22:10:42.733141 11536] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/a/b09e38e070c90b910e11625b7f2a7a-574248.o -> module.tkinter-preLoad.o
+[2022-03-14T22:10:42.735136 11536] Succeeded getting cached result
+[2022-03-14T22:10:42.735136 11536] Result: cache hit (direct)
+[2022-03-14T22:10:42.735136 11536] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2022-03-14T22:10:42.800960 20256] Got object file hash from manifest
+[2022-03-14T22:10:42.803952 20256] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/4/980de2242535a998552cd283973ad5-565992.o to module.lxml.usedoctest.o (uncompressed)
+[2022-03-14T22:10:42.804950 20256] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/4/980de2242535a998552cd283973ad5-565992.o -> module.lxml.usedoctest.o
+[2022-03-14T22:10:42.805946 11536] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2022-03-14T22:10:42.805946 20256] Succeeded getting cached result
+[2022-03-14T22:10:42.805946 20256] Result: cache hit (direct)
+[2022-03-14T22:10:42.806944 20256] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2022-03-14T22:10:42.808939 20256] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2022-03-14T22:10:42.913658 16112] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:42.913658 16112] Config: (default) base_dir = 
+[2022-03-14T22:10:42.913658 16112] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:42.913658 16112] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:42.913658 16112] Config: (default) compiler = 
+[2022-03-14T22:10:42.913658 16112] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:42.913658 16112] Config: (default) compression = false
+[2022-03-14T22:10:42.913658 16112] Config: (default) compression_level = 6
+[2022-03-14T22:10:42.913658 16112] Config: (default) cpp_extension = 
+[2022-03-14T22:10:42.913658 16112] Config: (default) debug = false
+[2022-03-14T22:10:42.913658 16112] Config: (default) depend_mode = false
+[2022-03-14T22:10:42.913658 16112] Config: (default) direct_mode = true
+[2022-03-14T22:10:42.913658 16112] Config: (default) disable = false
+[2022-03-14T22:10:42.913658 16112] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:42.913658 16112] Config: (default) hard_link = false
+[2022-03-14T22:10:42.913658 16112] Config: (default) hash_dir = true
+[2022-03-14T22:10:42.913658 16112] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:42.913658 16112] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:42.913658 16112] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:42.913658 16112] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:42.913658 16112] Config: (default) max_files = 0
+[2022-03-14T22:10:42.913658 16112] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:42.913658 16112] Config: (default) path = 
+[2022-03-14T22:10:42.913658 16112] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:42.913658 16112] Config: (default) prefix_command = 
+[2022-03-14T22:10:42.913658 16112] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:42.913658 16112] Config: (default) read_only = false
+[2022-03-14T22:10:42.913658 16112] Config: (default) read_only_direct = false
+[2022-03-14T22:10:42.913658 16112] Config: (default) recache = false
+[2022-03-14T22:10:42.913658 16112] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:42.913658 16112] Config: (default) sloppiness = 
+[2022-03-14T22:10:42.913658 16112] Config: (default) stats = true
+[2022-03-14T22:10:42.913658 16112] Config: (default) temporary_dir = 
+[2022-03-14T22:10:42.913658 16112] Config: (default) umask = 
+[2022-03-14T22:10:42.914656 16112] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o static_src\CompiledFunctionType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledFunctionType.c
+[2022-03-14T22:10:42.914656 16112] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:42.915653 16112] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:42.915653 16112] Source file: static_src\CompiledFunctionType.c
+[2022-03-14T22:10:42.915653 16112] Object file: static_src\CompiledFunctionType.o
+[2022-03-14T22:10:42.915653 16112] Trying direct lookup
+[2022-03-14T22:10:42.916651 16112] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/e/db6bea18e36041b682588be13ae175-78928.manifest
+[2022-03-14T22:10:42.979482 19264] Got object file hash from manifest
+[2022-03-14T22:10:42.984469 19264] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/f/68bdfe30886fd9c1b7036ae2851719-559380.o to static_src\CompiledCellType.o (uncompressed)
+[2022-03-14T22:10:42.985466 19264] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/f/68bdfe30886fd9c1b7036ae2851719-559380.o -> static_src\CompiledCellType.o
+[2022-03-14T22:10:42.986463 19264] Succeeded getting cached result
+[2022-03-14T22:10:42.986463 19264] Result: cache hit (direct)
+[2022-03-14T22:10:43.004416 19264] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2022-03-14T22:10:43.027368 19264] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2022-03-14T22:10:43.061265 16908] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:43.061265 16908] Config: (default) base_dir = 
+[2022-03-14T22:10:43.061265 16908] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:43.061265 16908] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:43.061265 16908] Config: (default) compiler = 
+[2022-03-14T22:10:43.061265 16908] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:43.061265 16908] Config: (default) compression = false
+[2022-03-14T22:10:43.061265 16908] Config: (default) compression_level = 6
+[2022-03-14T22:10:43.061265 16908] Config: (default) cpp_extension = 
+[2022-03-14T22:10:43.061265 16908] Config: (default) debug = false
+[2022-03-14T22:10:43.061265 16908] Config: (default) depend_mode = false
+[2022-03-14T22:10:43.061265 16908] Config: (default) direct_mode = true
+[2022-03-14T22:10:43.061265 16908] Config: (default) disable = false
+[2022-03-14T22:10:43.061265 16908] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:43.061265 16908] Config: (default) hard_link = false
+[2022-03-14T22:10:43.061265 16908] Config: (default) hash_dir = true
+[2022-03-14T22:10:43.061265 16908] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:43.061265 16908] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:43.061265 16908] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:43.061265 16908] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:43.061265 16908] Config: (default) max_files = 0
+[2022-03-14T22:10:43.061265 16908] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:43.061265 16908] Config: (default) path = 
+[2022-03-14T22:10:43.061265 16908] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:43.061265 16908] Config: (default) prefix_command = 
+[2022-03-14T22:10:43.061265 16908] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:43.061265 16908] Config: (default) read_only = false
+[2022-03-14T22:10:43.061265 16908] Config: (default) read_only_direct = false
+[2022-03-14T22:10:43.061265 16908] Config: (default) recache = false
+[2022-03-14T22:10:43.061265 16908] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:43.061265 16908] Config: (default) sloppiness = 
+[2022-03-14T22:10:43.061265 16908] Config: (default) stats = true
+[2022-03-14T22:10:43.061265 16908] Config: (default) temporary_dir = 
+[2022-03-14T22:10:43.061265 16908] Config: (default) umask = 
+[2022-03-14T22:10:43.062262 16908] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o static_src\CompiledGeneratorType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledGeneratorType.c
+[2022-03-14T22:10:43.062262 16908] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:43.062262 16908] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:43.062262 16908] Source file: static_src\CompiledGeneratorType.c
+[2022-03-14T22:10:43.062262 16908] Object file: static_src\CompiledGeneratorType.o
+[2022-03-14T22:10:43.062262 16908] Trying direct lookup
+[2022-03-14T22:10:43.063259 16908] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/e/3ddf4fbdb470fe21bb4baf7c78fc6f-57377.manifest
+[2022-03-14T22:10:43.296635 16112] Got object file hash from manifest
+[2022-03-14T22:10:43.336527 11896] Got object file hash from manifest
+[2022-03-14T22:10:43.340525 11896] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/a/b42092817841619b12eaf4afb683e5-3930062.o to static_src\MainProgram.o (uncompressed)
+[2022-03-14T22:10:43.340525 11896] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/a/b42092817841619b12eaf4afb683e5-3930062.o -> static_src\MainProgram.o
+[2022-03-14T22:10:43.342511 11896] Succeeded getting cached result
+[2022-03-14T22:10:43.342511 11896] Result: cache hit (direct)
+[2022-03-14T22:10:43.342511 11896] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/stats.lock
+[2022-03-14T22:10:43.345503 11896] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/stats.lock
+[2022-03-14T22:10:43.368444 16112] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/5/5ddaaed86e41dd3269ba1903e4e130-640399.o to static_src\CompiledFunctionType.o (uncompressed)
+[2022-03-14T22:10:43.371445 16112] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/5/5ddaaed86e41dd3269ba1903e4e130-640399.o -> static_src\CompiledFunctionType.o
+[2022-03-14T22:10:43.375445 16112] Succeeded getting cached result
+[2022-03-14T22:10:43.375445 16112] Result: cache hit (direct)
+[2022-03-14T22:10:43.378419 16112] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2022-03-14T22:10:43.435263 16112] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2022-03-14T22:10:43.478148 16908] Got object file hash from manifest
+[2022-03-14T22:10:43.480143 16908] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/6/4e0b7c28b2e3400b3fa711463948a4-740671.o to static_src\CompiledGeneratorType.o (uncompressed)
+[2022-03-14T22:10:43.482138 16908] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/6/4e0b7c28b2e3400b3fa711463948a4-740671.o -> static_src\CompiledGeneratorType.o
+[2022-03-14T22:10:43.483136 16908] Succeeded getting cached result
+[2022-03-14T22:10:43.483136 16908] Result: cache hit (direct)
+[2022-03-14T22:10:43.483136 16908] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2022-03-14T22:10:43.485130 16908] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2022-03-14T22:10:43.651685 15132] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:43.651685 15132] Config: (default) base_dir = 
+[2022-03-14T22:10:43.651685 15132] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:43.651685 15132] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:43.651685 15132] Config: (default) compiler = 
+[2022-03-14T22:10:43.651685 15132] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:43.651685 15132] Config: (default) compression = false
+[2022-03-14T22:10:43.651685 15132] Config: (default) compression_level = 6
+[2022-03-14T22:10:43.651685 15132] Config: (default) cpp_extension = 
+[2022-03-14T22:10:43.651685 15132] Config: (default) debug = false
+[2022-03-14T22:10:43.651685 15132] Config: (default) depend_mode = false
+[2022-03-14T22:10:43.651685 15132] Config: (default) direct_mode = true
+[2022-03-14T22:10:43.651685 15132] Config: (default) disable = false
+[2022-03-14T22:10:43.651685 15132] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:43.651685 15132] Config: (default) hard_link = false
+[2022-03-14T22:10:43.651685 15132] Config: (default) hash_dir = true
+[2022-03-14T22:10:43.651685 15132] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:43.651685 15132] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:43.651685 15132] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:43.651685 15132] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:43.651685 15132] Config: (default) max_files = 0
+[2022-03-14T22:10:43.651685 15132] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:43.651685 15132] Config: (default) path = 
+[2022-03-14T22:10:43.651685 15132] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:43.651685 15132] Config: (default) prefix_command = 
+[2022-03-14T22:10:43.651685 15132] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:43.651685 15132] Config: (default) read_only = false
+[2022-03-14T22:10:43.651685 15132] Config: (default) read_only_direct = false
+[2022-03-14T22:10:43.651685 15132] Config: (default) recache = false
+[2022-03-14T22:10:43.651685 15132] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:43.651685 15132] Config: (default) sloppiness = 
+[2022-03-14T22:10:43.651685 15132] Config: (default) stats = true
+[2022-03-14T22:10:43.651685 15132] Config: (default) temporary_dir = 
+[2022-03-14T22:10:43.651685 15132] Config: (default) umask = 
+[2022-03-14T22:10:43.652683 15132] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o static_src\CompiledCodeHelpers.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledCodeHelpers.c
+[2022-03-14T22:10:43.652683 15132] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:43.652683 15132] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:43.652683 15132] Source file: static_src\CompiledCodeHelpers.c
+[2022-03-14T22:10:43.652683 15132] Object file: static_src\CompiledCodeHelpers.o
+[2022-03-14T22:10:43.653680 15132] Trying direct lookup
+[2022-03-14T22:10:43.653680 15132] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/8/13497822ebcd68648e33f539b354b1-57088.manifest
+[2022-03-14T22:10:43.724491 8372 ] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) base_dir = 
+[2022-03-14T22:10:43.724491 8372 ] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) compiler = 
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) compression = false
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) compression_level = 6
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) cpp_extension = 
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) debug = false
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) depend_mode = false
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) direct_mode = true
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) disable = false
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) hard_link = false
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) hash_dir = true
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:43.724491 8372 ] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) max_files = 0
+[2022-03-14T22:10:43.724491 8372 ] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) path = 
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) prefix_command = 
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) read_only = false
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) read_only_direct = false
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) recache = false
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) sloppiness = 
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) stats = true
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) temporary_dir = 
+[2022-03-14T22:10:43.724491 8372 ] Config: (default) umask = 
+[2022-03-14T22:10:43.725488 8372 ] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o static_src\InspectPatcher.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src static_src\InspectPatcher.c
+[2022-03-14T22:10:43.725488 8372 ] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:43.725488 8372 ] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:43.725488 8372 ] Source file: static_src\InspectPatcher.c
+[2022-03-14T22:10:43.725488 8372 ] Object file: static_src\InspectPatcher.o
+[2022-03-14T22:10:43.726486 8372 ] Trying direct lookup
+[2022-03-14T22:10:43.726486 8372 ] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/d/cbed082bb648d53c9eebe2b6624672-13611.manifest
+[2022-03-14T22:10:43.737455 11560] === CCACHE 3.7.12 STARTED =========================================
+[2022-03-14T22:10:43.737455 11560] Config: (default) base_dir = 
+[2022-03-14T22:10:43.737455 11560] Config: (environment) cache_dir = C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2022-03-14T22:10:43.737455 11560] Config: (default) cache_dir_levels = 2
+[2022-03-14T22:10:43.737455 11560] Config: (default) compiler = 
+[2022-03-14T22:10:43.737455 11560] Config: (default) compiler_check = mtime
+[2022-03-14T22:10:43.737455 11560] Config: (default) compression = false
+[2022-03-14T22:10:43.737455 11560] Config: (default) compression_level = 6
+[2022-03-14T22:10:43.737455 11560] Config: (default) cpp_extension = 
+[2022-03-14T22:10:43.737455 11560] Config: (default) debug = false
+[2022-03-14T22:10:43.737455 11560] Config: (default) depend_mode = false
+[2022-03-14T22:10:43.737455 11560] Config: (default) direct_mode = true
+[2022-03-14T22:10:43.737455 11560] Config: (default) disable = false
+[2022-03-14T22:10:43.737455 11560] Config: (default) extra_files_to_hash = 
+[2022-03-14T22:10:43.737455 11560] Config: (default) hard_link = false
+[2022-03-14T22:10:43.737455 11560] Config: (default) hash_dir = true
+[2022-03-14T22:10:43.737455 11560] Config: (default) ignore_headers_in_manifest = 
+[2022-03-14T22:10:43.737455 11560] Config: (default) keep_comments_cpp = false
+[2022-03-14T22:10:43.737455 11560] Config: (default) limit_multiple = 0.8
+[2022-03-14T22:10:43.737455 11560] Config: (environment) log_file = E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build\ccache-15156.txt
+[2022-03-14T22:10:43.737455 11560] Config: (default) max_files = 0
+[2022-03-14T22:10:43.737455 11560] Config: (C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2022-03-14T22:10:43.737455 11560] Config: (default) path = 
+[2022-03-14T22:10:43.737455 11560] Config: (default) pch_external_checksum = false
+[2022-03-14T22:10:43.737455 11560] Config: (default) prefix_command = 
+[2022-03-14T22:10:43.737455 11560] Config: (default) prefix_command_cpp = 
+[2022-03-14T22:10:43.737455 11560] Config: (default) read_only = false
+[2022-03-14T22:10:43.737455 11560] Config: (default) read_only_direct = false
+[2022-03-14T22:10:43.737455 11560] Config: (default) recache = false
+[2022-03-14T22:10:43.737455 11560] Config: (default) run_second_cpp = true
+[2022-03-14T22:10:43.737455 11560] Config: (default) sloppiness = 
+[2022-03-14T22:10:43.737455 11560] Config: (default) stats = true
+[2022-03-14T22:10:43.737455 11560] Config: (default) temporary_dir = 
+[2022-03-14T22:10:43.737455 11560] Config: (default) umask = 
+[2022-03-14T22:10:43.738453 11560] Command line: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\mingw64\bin\gcc.exe -o static_src\MetaPathBasedLoader.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -ID:\Anaconda3\include -I. -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\include -ID:\ANACON~1\lib\SITE-P~1\nuitka\build\static_src static_src\MetaPathBasedLoader.c
+[2022-03-14T22:10:43.738453 11560] Hostname: DESKTOP-S2R5E0O
+[2022-03-14T22:10:43.738453 11560] Working directory: E:\项目文件夹\陈良方\我的坚果云\代码\cosmo_private\MapFiles\MapFiles\MapFiles-SeaTable-Beta.build
+[2022-03-14T22:10:43.739450 11560] Source file: static_src\MetaPathBasedLoader.c
+[2022-03-14T22:10:43.739450 11560] Object file: static_src\MetaPathBasedLoader.o
+[2022-03-14T22:10:43.739450 11560] Trying direct lookup
+[2022-03-14T22:10:43.740447 11560] Looking for object file hash in C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/d/c4997b650e045f44b7d3b389b4d57c-51990.manifest
+[2022-03-14T22:10:43.896032 8372 ] Got object file hash from manifest
+[2022-03-14T22:10:43.898026 8372 ] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/9/3bce34bfade00392c94fe98bc7ef44-564897.o to static_src\InspectPatcher.o (uncompressed)
+[2022-03-14T22:10:43.899024 8372 ] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/9/3bce34bfade00392c94fe98bc7ef44-564897.o -> static_src\InspectPatcher.o
+[2022-03-14T22:10:43.900021 8372 ] Succeeded getting cached result
+[2022-03-14T22:10:43.900021 8372 ] Result: cache hit (direct)
+[2022-03-14T22:10:43.901018 8372 ] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2022-03-14T22:10:43.903013 8372 ] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2022-03-14T22:10:44.102480 11560] Got object file hash from manifest
+[2022-03-14T22:10:44.105471 11560] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/9/3ce230923bea0b2c27ce4b8828ff80-2770231.o to static_src\MetaPathBasedLoader.o (uncompressed)
+[2022-03-14T22:10:44.106469 11560] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/9/3ce230923bea0b2c27ce4b8828ff80-2770231.o -> static_src\MetaPathBasedLoader.o
+[2022-03-14T22:10:44.107467 11560] Succeeded getting cached result
+[2022-03-14T22:10:44.107467 11560] Result: cache hit (direct)
+[2022-03-14T22:10:44.108464 11560] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2022-03-14T22:10:44.111455 11560] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2022-03-14T22:10:44.150353 15132] Got object file hash from manifest
+[2022-03-14T22:10:44.156336 15132] Copying C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/b/807d46bad7974da8a21ea26339ed7a-5215555.o to static_src\CompiledCodeHelpers.o (uncompressed)
+[2022-03-14T22:10:44.158330 15132] Created from cache: C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/b/807d46bad7974da8a21ea26339ed7a-5215555.o -> static_src\CompiledCodeHelpers.o
+[2022-03-14T22:10:44.160325 15132] Succeeded getting cached result
+[2022-03-14T22:10:44.160325 15132] Result: cache hit (direct)
+[2022-03-14T22:10:44.161322 15132] Acquired lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2022-03-14T22:10:44.164314 15132] Releasing lock C:\Users\chenlf\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock

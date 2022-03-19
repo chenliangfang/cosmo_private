@@ -39,8 +39,8 @@ import pandas as pd
 if not os.path.exists(r'C:\Files'):
     os.mkdir(r'C:\Files')
 
-facebg = 'DarkGray'  # Honeydew  \PaleGoldenrod \PowderBlue \Silver                     #窗口背景色，其他背景色见：blog.csdn.net/chl0000/article/details/7657887
-menubg = 'DarkGray' ##CornflowerBlue\GhostWhite\DarkGray
+facebg = 'SlateGray'  # Honeydew  \PaleGoldenrod \PowderBlue \Silver                     #窗口背景色，其他背景色见：blog.csdn.net/chl0000/article/details/7657887
+menubg = 'SlateGray' ##CornflowerBlue\GhostWhite\DarkGray
 
 def strfolat(num):
     try:
@@ -75,7 +75,7 @@ class MapFiles_GUI():
         width = 600
         height = 680
         self.init_window_name.iconbitmap('.\\rocket3.ico')
-        self.init_window_name.title("MapFiles")           #窗口名
+        self.init_window_name.title("MapFiles-Excel")           #窗口名
         self.init_window_name.resizable(width=False, height=False)
         self.screenwidth = self.init_window_name.winfo_screenwidth()
         self.screenheight = self.init_window_name.winfo_screenheight()
@@ -147,6 +147,7 @@ class MapFiles_GUI():
         except:
             sheet = sheet_index
         data = pd.read_excel(excel_,  sheet_name = sheet)
+        print(data.columns)
         for index in data.columns:
             try:
                 data[index] = data[index].apply(lambda x: strtime(x))
@@ -164,10 +165,10 @@ class MapFiles_GUI():
         if len(percent)>=1:
             for col in percent:
                 data[col] = data[col].apply(lambda x: percents(x))
-        
         data['today'] = datetime.datetime.strftime(datetime.datetime.today(),'%Y年%m月%d日')
         data['month'] = datetime.datetime.strftime(datetime.datetime.today(),'%Y年%m月')
         data['year'] = datetime.datetime.strftime(datetime.datetime.today(),'%Y年')
+        print(data.columns)
         return data 
     ## 生成文件函数
     def produce_word(self, context, path_of_MB,path_of_HT, renames):
